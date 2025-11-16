@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <h1>About</h1>
+    <p>Arc Raiders theorycrafting and some useful tools</p>
     <h2>Unconfirmed answers:</h2>
     <ul>
       <li>

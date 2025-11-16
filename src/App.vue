@@ -3,7 +3,7 @@
     <nav class="sidebar">
       <ul>
         <li>
-          <router-link to="/">Home</router-link>
+          <router-link to="/">About</router-link>
         </li>
         <li v-if="isDev">
           <router-link to="/items">Items</router-link>
