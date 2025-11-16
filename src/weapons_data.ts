@@ -213,12 +213,16 @@ const OSPREY: Weapon = {
     fireRate: 17.7,
     stability: 89.4,
     stealth: 12.0,
-    shotsPerSecond: 7.0 / (621.0 / 60.0) / 1.065, //8 shots in 621 frames (Osprey II) (60 fps); //8 shots in 553 frames (Osprey IV) (60 fps),
+    //Osprey I:   8 shots in 675 frames (60 fps)
+    //Osprey II:  8 shots in 623 frames (60 fps)
+    //Osprey III: 8 shots in 582 frames (60 fps)
+    //Osprey IV:  8 shots in 539 frames (60 fps)
+    shotsPerSecond: 7.0 / (675.0 / 60.0),
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/osprey.png',
     tryingHeadshotsMakeSense: true,
     headshotMultiplier: 2.0,
-    increasedFireRateByLevel: [1.0, 1.065, 1.0 + 0.065*2, 1.0 + 0.065*3], //????
+    increasedFireRateByLevel: [1.0, 1.084, 1.16, 1.252],
     projectiles: 1,
 }
 
