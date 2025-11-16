@@ -1,0 +1,332 @@
+import type { Weapon } from "./models";
+import { Rarity } from "./models";
+
+const STITCHER: Weapon = {
+    name: "Stitcher",
+    damage: 7,
+    range: 42.1,
+    agility: 73.8,
+    fireRate: 45.3,
+    stability: 45.3,
+    stealth: 19.0,
+    shotsPerSecond: 25.0 / (126.0 / 60.0), //25 shots in 126 frames,
+    rarity: Rarity.Common,
+    rawImagePath: 'src/raw-images/weapons/wiki/stitcher.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const FERRO: Weapon = {
+    name: "Ferro",
+    damage: 40,
+    range: 53.1,
+    agility: 32.1,
+    fireRate: 6.6,
+    stability: 78.1,
+    stealth: 8.0,
+    shotsPerSecond: 6.0 / (581.0 / 60.0) / 1.39, //6 shots in 581 frames (Ferro IV) (60 fps)
+    rarity: Rarity.Common,
+    rawImagePath: 'src/raw-images/weapons/wiki/ferro.png',
+    tryingHeadshotsMakeSense: true,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.13, 1.26, 1.39],
+}
+
+const KETTLE: Weapon = {
+    name: "Kettle",
+    damage: 10,
+    range: 42.8,
+    agility: 58.5,
+    fireRate: 28.0,
+    stability: 69.8,
+    stealth: 26.0,
+    shotsPerSecond: 20.0 / (139.0 / 60.0), //20 shots in 139 frames (60 fps)
+    rarity: Rarity.Common,
+    rawImagePath: 'src/raw-images/weapons/wiki/kettle.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const RATTLER: Weapon = {
+    name: "Rattler",
+    damage: 9,
+    range: 56.2,
+    agility: 54.8,
+    fireRate: 33.3,
+    stability: 72.2,
+    stealth: 14.0,
+    shotsPerSecond: 10.0 / (65.0 / 60.0), //10 shots in 65 frames (60 fps)
+    rarity: Rarity.Common,
+    rawImagePath: 'src/raw-images/weapons/wiki/rattler.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const HAIRPIN: Weapon = {
+    name: "Hairpin",
+    damage: 20,
+    range: 38.6,
+    agility: 78.3,
+    fireRate: 9.0,
+    stability: 90.9,
+    stealth: 70.0,
+    shotsPerSecond: 1.17,
+    rarity: Rarity.Common,
+    rawImagePath: 'src/raw-images/weapons/wiki/hairpin.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
+}
+
+const IL_TORO: Weapon = {
+    name: "Il Toro",
+    damage: 67.5,
+    range: 20.0,
+    agility: 61.1,
+    fireRate: 14.3,
+    stability: 80.6,
+    stealth: 18.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Uncommon,
+    rawImagePath: 'src/raw-images/weapons/wiki/iltoro.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.175, 1.35, 1.5],
+}
+
+const BURLETTA: Weapon = {
+    name: "Burletta",
+    damage: 10.0,
+    range: 41.7,
+    agility: 84.4,
+    fireRate: 28.0,
+    stability: 74.5,
+    stealth: 24.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Uncommon,
+    rawImagePath: 'src/raw-images/weapons/wiki/burletta.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const ARPEGGIO: Weapon = {
+    name: "Arpeggio",
+    damage: 9.5,
+    range: 55.9,
+    agility: 57.3,
+    fireRate: 18.3,
+    stability: 84.0,
+    stealth: 14.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Uncommon,
+    rawImagePath: 'src/raw-images/weapons/wiki/arpeggio.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.2, 1.4, 1.6],
+}
+
+const ANVIL: Weapon = {
+    name: "Anvil",
+    damage: 40.0,
+    range: 50.2,
+    agility: 69.1,
+    fireRate: 16.3,
+    stability: 75.2,
+    stealth: 10.0,
+    shotsPerSecond: 6.0 / (319.0 / 60.0) / 1.5, //6 shots in 319 frames (ANVIL III) (60 fps),
+    rarity: Rarity.Uncommon,
+    rawImagePath: 'src/raw-images/weapons/wiki/anvil.png',
+    tryingHeadshotsMakeSense: true,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
+}
+
+const TORRENTE: Weapon = {
+    name: "Torrente",
+    damage: 8.0,
+    range: 49.9,
+    agility: 37.7,
+    fireRate: 58.3,
+    stability: 74.2,
+    stealth: 1.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Rare,
+    rawImagePath: 'src/raw-images/weapons/wiki/torrente.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const VENATOR: Weapon = {
+    name: "Venator",
+    damage: 18,
+    range: 48.4,
+    agility: 76.4,
+    fireRate: 36.7,
+    stability: 61.3,
+    stealth: 12,
+    shotsPerSecond: 22.0 / (212.0 / 60.0) / 1.66, //22 shots in 212 frames (Venator IV) (60 fps),
+    rarity: Rarity.Rare,
+    rawImagePath: 'src/raw-images/weapons/wiki/venator.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.22, 1.44, 1.66],
+}
+
+const RENEGADE: Weapon = {
+    name: "Renegade",
+    damage: 35.0,
+    range: 68.8,
+    agility: 55.8,
+    fireRate: 21.0,
+    stability: 85.7,
+    stealth: 16.0,
+    shotsPerSecond: 16.0 / (1221.0 / 60.0), //16 shots in 1221 frames (60 fps),
+    rarity: Rarity.Rare,
+    rawImagePath: 'src/raw-images/weapons/wiki/renegade.png',
+    tryingHeadshotsMakeSense: true,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
+}
+
+const OSPREY: Weapon = {
+    name: "Osprey",
+    damage: 45.0,
+    range: 80.3,
+    agility: 45.9,
+    fireRate: 17.7,
+    stability: 89.4,
+    stealth: 12.0,
+    shotsPerSecond: 8.0 / (621.0 / 60.0) / 1.065, //8 shots in 621 frames (Osprey II) (60 fps); //8 shots in 553 frames (Osprey IV) (60 fps),
+    rarity: Rarity.Epic,
+    rawImagePath: 'src/raw-images/weapons/wiki/osprey.png',
+    tryingHeadshotsMakeSense: true,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.065, 1.0 + 0.065*2, 1.0 + 0.065*3], //????
+}
+
+const TEMPEST: Weapon = {
+    name: "Tempest",
+    damage: 10,
+    range: 55.9,
+    agility: 50,
+    fireRate: 36.7,
+    stability: 79.9,
+    stealth: 14,
+    shotsPerSecond: 9.23,
+    rarity: Rarity.Epic,
+    rawImagePath: 'src/raw-images/weapons/wiki/tempest.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const BOBCAT: Weapon = {
+    name: "Bobcat",
+    damage: 6,
+    range: 44,
+    agility: 73.1,
+    fireRate: 66.7,
+    stability: 45.9,
+    stealth: 21,
+    shotsPerSecond: 30.0 / (104.0 / 60.0), //30 shots in 104 frames (60 fps),
+    rarity: Rarity.Epic,
+    rawImagePath: 'src/raw-images/weapons/wiki/bobcat.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const VULCANO: Weapon = {
+    name: "Vulcano",
+    damage: 49.5,
+    range: 26.0,
+    agility: 70.3,
+    fireRate: 26.3,
+    stability: 68.6,
+    stealth: 15.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Epic,
+    rawImagePath: 'src/raw-images/weapons/wiki/vulcano.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
+}
+
+const BETTINA: Weapon = {
+    name: "Bettina",
+    damage: 14.0,
+    range: 51.3,
+    agility: 48.2,
+    fireRate: 32.0,
+    stability: 76.4,
+    stealth: 14.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Epic,
+    rawImagePath: 'src/raw-images/weapons/wiki/bettina.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.05, 1.1, 1.15],
+}
+
+const JUPITER: Weapon = {
+    name: "Jupiter",
+    damage: 60.0,
+    range: 71.7,
+    agility: 39.2,
+    fireRate: 7.67,
+    stability: 73.5,
+    stealth: 5.0,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Legendary,
+    rawImagePath: 'src/raw-images/weapons/wiki/jupiter.png',
+    tryingHeadshotsMakeSense: true,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+const EQUALIZER: Weapon = {
+    name: "Equalizer",
+    damage: 8.0,
+    range: NaN,
+    agility: 44.6,
+    fireRate: 33.33,
+    stability: 84.6,
+    stealth: NaN,
+    shotsPerSecond: NaN,
+    rarity: Rarity.Legendary,
+    rawImagePath: 'src/raw-images/weapons/wiki/equalizer.png',
+    tryingHeadshotsMakeSense: false,
+    headshotMultiplier: 2.5,
+    increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+}
+
+export const weapons: Weapon[] = [
+    BOBCAT,
+    STITCHER,
+
+    JUPITER,
+    OSPREY,
+    RENEGADE,
+    ANVIL,
+    FERRO,
+
+    VENATOR,
+    BURLETTA,
+    HAIRPIN,
+    KETTLE,
+    
+    EQUALIZER,
+    BETTINA,
+    TORRENTE,
+    TEMPEST,
+    ARPEGGIO,
+    RATTLER,
+
+    VULCANO,
+    IL_TORO,
+];
