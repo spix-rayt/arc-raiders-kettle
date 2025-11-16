@@ -22,6 +22,7 @@
     
     <div class="weapon-details-container">
       <div class="upgrade-controls">
+        <h2>{{ selectedWeapon?.name }}</h2>
       <button
         v-for="level in 4"
         :key="level"
@@ -129,7 +130,6 @@ function getRomanNumeral(level: number): string {
 
 .upgrade-controls {
   display: flex;
-  justify-content: center;
   gap: 10px;
   margin: 15px 0;
 }

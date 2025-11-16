@@ -1,7 +1,5 @@
 <template>
   <div class="weapon-details">
-    <h2>{{ weapon.name }}</h2>
-    
     <div class="stats-grid">
       <div class="stat-item">
         <label>Damage:</label>
@@ -9,7 +7,7 @@
       </div>
       <div class="stat-item">
         <label>Fire Rate:</label>
-        <span class="stat-value">{{ weapon.fireRate }} ({{ weapon.shotsPerSecond.toFixed(2) }}/s)</span>
+        <span class="stat-value">{{ weapon.fireRate }} ({{ calculateShotsPerSecond(weapon).toFixed(2) }}/s)</span>
       </div>
       <div class="stat-item">
         <label>Range:</label>
@@ -61,7 +59,7 @@
               :key="col"
               class="stat-value"
             >
-              {{ calculateHitsToKill(weapon, col-1, isFirstHitHeadshot) }}
+              {{ calculateHitsToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense) }}
             </td>
           </tr>
           <tr>
@@ -71,7 +69,7 @@
               :key="col"
               class="stat-value"
             >
-              {{ calculateTimeToKill(weapon, col-1, isFirstHitHeadshot).toFixed(2) }}s
+              {{ calculateTimeToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense).toFixed(2) }}s
             </td>
           </tr>
         </tbody>
@@ -99,14 +97,15 @@ function getColumnImageUrl(columnIndex: number): string {
 }
 
 function calculateHitsToKill(weapon: Weapon, columnIndex: number, isFirstHitHeadshot: boolean): number {
-  return calculateHitsAmount(weapon.damage, weapon.headshotMultiplier, shields[columnIndex]!.amount, shields[columnIndex]!.damageReduction, isFirstHitHeadshot);
+  return calculateHitsAmount(weapon, shields[columnIndex]!.amount, shields[columnIndex]!.damageReduction, isFirstHitHeadshot);
 }
 
 function calculateTimeToKill(weapon: Weapon, columnIndex: number, isFirstHitHeadshot: boolean): number {
-  const shotsPerSecond = weapon.shotsPerSecond * weapon.increasedFireRateByLevel[props.upgradeLevel - 1]!;
-  // const shotsPerSecond = weapon.shotsPerSecond;
-  // console.log(props.upgradeLevel);
-  return ((calculateHitsToKill(weapon, columnIndex, isFirstHitHeadshot) - 1) / shotsPerSecond);
+  return ((calculateHitsToKill(weapon, columnIndex, isFirstHitHeadshot) - 1) / calculateShotsPerSecond(weapon));
+}
+
+function calculateShotsPerSecond(weapon: Weapon): number {
+  return weapon.shotsPerSecond * weapon.increasedFireRateByLevel[props.upgradeLevel - 1]!;
 }
 </script>
 

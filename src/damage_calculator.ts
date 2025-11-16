@@ -1,3 +1,5 @@
+import type { Weapon } from "./models";
+
 class DamageCalculator {
     shieldAmount: number;
     damageReduction: number;
@@ -12,27 +14,51 @@ class DamageCalculator {
         this.health = 100.0;
     }
 
-    public hit(damage: number): void {
-        if (this.shieldAmount > 0.0) {
-            this.health -= damage * (1.0 - this.damageReduction);
-            this.shieldAmount -= damage;
-        } else {
-            this.health -= damage;
+    public hitBody(damage: number, projectiles: number): void {
+        this.warnIfShieldAlmostZero();
+        const damagePerProjectile = damage / projectiles;
+        for (let i: number = 0; i < projectiles; i++) {
+            if (this.shieldAmount > 0.0) {
+                this.health -= damagePerProjectile * (1.0 - this.damageReduction);
+                this.shieldAmount -= damagePerProjectile;
+            } else {
+                this.health -= damagePerProjectile;
+            }
+        }
+    }
+
+    public hitHead(damage: number, headshotMultiplier: number, projectiles: number) {
+        this.warnIfShieldAlmostZero();
+        const damagePerProjectile = damage / projectiles;
+        for (let i: number = 0; i < projectiles; i++) {
+            if (this.shieldAmount > 0.0) {
+                this.health -= damagePerProjectile * (1.0 - this.damageReduction) * headshotMultiplier;
+                this.shieldAmount -= damagePerProjectile;
+            } else {
+                this.health -= damagePerProjectile * headshotMultiplier;
+            }
+        }
+    }
+
+    public warnIfShieldAlmostZero() {
+        if (this.shieldAmount > 0.0 && this.shieldAmount < 0.001) {
+            console.warn(`Shield: ${this.shieldAmount}`);
         }
     }
 }
 
-export const calculateHitsAmount = (damage: number, headshotMultiplier: number, shieldAmount: number, shieldDamageReduction: number, isFirstHitHeadshot: boolean) => {
+export const calculateHitsAmount = (weapon: Weapon, shieldAmount: number, shieldDamageReduction: number, isFirstHitHeadshot: boolean) => {
     let hits = 0;
 
     const calculator = new DamageCalculator(shieldAmount, shieldDamageReduction);
     while (calculator.health > 0.0) {
         if (hits == 0 && isFirstHitHeadshot) {
-            calculator.hit(damage * headshotMultiplier);
+            calculator.hitHead(weapon.damage, weapon.headshotMultiplier, weapon.projectiles);
         } else {
-            calculator.hit(damage);
+            calculator.hitBody(weapon.damage, weapon.projectiles);
         }
         hits += 1;
     }
+
     return hits;
 }

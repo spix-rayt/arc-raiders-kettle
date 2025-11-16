@@ -50,6 +50,7 @@ export interface Weapon {
   tryingHeadshotsMakeSense: boolean,
   headshotMultiplier: number,
   increasedFireRateByLevel: number[],
+  projectiles: number,
 }
 
 export interface Shield {

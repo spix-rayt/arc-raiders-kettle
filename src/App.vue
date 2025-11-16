@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-</script>
-
 <template>
   <div class="app-container">
     <nav class="sidebar">
@@ -9,7 +5,7 @@ import { RouterView } from 'vue-router'
         <li>
           <router-link to="/">Home</router-link>
         </li>
-        <li>
+        <li v-if="isDev">
           <router-link to="/items">Items</router-link>
         </li>
         <li>
@@ -23,6 +19,11 @@ import { RouterView } from 'vue-router'
     </main>
   </div>
 </template>
+
+<script setup lang="ts">
+import { RouterView } from 'vue-router';
+const isDev = process.env.NODE_ENV === 'development';
+</script>
 
 <style scoped>
 .app-container {

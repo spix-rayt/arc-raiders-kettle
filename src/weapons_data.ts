@@ -15,6 +15,7 @@ const STITCHER: Weapon = {
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const FERRO: Weapon = {
@@ -31,6 +32,7 @@ const FERRO: Weapon = {
     tryingHeadshotsMakeSense: true,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.13, 1.26, 1.39],
+    projectiles: 1,
 }
 
 const KETTLE: Weapon = {
@@ -47,6 +49,7 @@ const KETTLE: Weapon = {
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const RATTLER: Weapon = {
@@ -61,8 +64,9 @@ const RATTLER: Weapon = {
     rarity: Rarity.Common,
     rawImagePath: 'src/raw-images/weapons/wiki/rattler.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const HAIRPIN: Weapon = {
@@ -73,12 +77,13 @@ const HAIRPIN: Weapon = {
     fireRate: 9.0,
     stability: 90.9,
     stealth: 70.0,
-    shotsPerSecond: 1.17,
+    shotsPerSecond: 0.9,
     rarity: Rarity.Common,
     rawImagePath: 'src/raw-images/weapons/wiki/hairpin.png',
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
+    projectiles: 1,
 }
 
 const IL_TORO: Weapon = {
@@ -89,12 +94,13 @@ const IL_TORO: Weapon = {
     fireRate: 14.3,
     stability: 80.6,
     stealth: 18.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 0.68,
     rarity: Rarity.Uncommon,
     rawImagePath: 'src/raw-images/weapons/wiki/iltoro.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.175, 1.35, 1.5],
+    projectiles: 1,
 }
 
 const BURLETTA: Weapon = {
@@ -105,12 +111,13 @@ const BURLETTA: Weapon = {
     fireRate: 28.0,
     stability: 74.5,
     stealth: 24.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 6.88,
     rarity: Rarity.Uncommon,
     rawImagePath: 'src/raw-images/weapons/wiki/burletta.png',
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const ARPEGGIO: Weapon = {
@@ -121,12 +128,13 @@ const ARPEGGIO: Weapon = {
     fireRate: 18.3,
     stability: 84.0,
     stealth: 14.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 4.81,
     rarity: Rarity.Uncommon,
     rawImagePath: 'src/raw-images/weapons/wiki/arpeggio.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.75,
     increasedFireRateByLevel: [1.0, 1.2, 1.4, 1.6],
+    projectiles: 1,
 }
 
 const ANVIL: Weapon = {
@@ -143,6 +151,7 @@ const ANVIL: Weapon = {
     tryingHeadshotsMakeSense: true,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
+    projectiles: 1,
 }
 
 const TORRENTE: Weapon = {
@@ -153,12 +162,13 @@ const TORRENTE: Weapon = {
     fireRate: 58.3,
     stability: 74.2,
     stealth: 1.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 13.36,
     rarity: Rarity.Rare,
     rawImagePath: 'src/raw-images/weapons/wiki/torrente.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const VENATOR: Weapon = {
@@ -175,6 +185,7 @@ const VENATOR: Weapon = {
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.22, 1.44, 1.66],
+    projectiles: 2,
 }
 
 const RENEGADE: Weapon = {
@@ -189,8 +200,9 @@ const RENEGADE: Weapon = {
     rarity: Rarity.Rare,
     rawImagePath: 'src/raw-images/weapons/wiki/renegade.png',
     tryingHeadshotsMakeSense: true,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.25,
     increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
+    projectiles: 1,
 }
 
 const OSPREY: Weapon = {
@@ -205,8 +217,9 @@ const OSPREY: Weapon = {
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/osprey.png',
     tryingHeadshotsMakeSense: true,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.065, 1.0 + 0.065*2, 1.0 + 0.065*3], //????
+    projectiles: 1,
 }
 
 const TEMPEST: Weapon = {
@@ -221,8 +234,9 @@ const TEMPEST: Weapon = {
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/tempest.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 1.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const BOBCAT: Weapon = {
@@ -237,8 +251,9 @@ const BOBCAT: Weapon = {
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/bobcat.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const VULCANO: Weapon = {
@@ -249,12 +264,13 @@ const VULCANO: Weapon = {
     fireRate: 26.3,
     stability: 68.6,
     stealth: 15.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 1.93,
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/vulcano.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
+    projectiles: 1,
 }
 
 const BETTINA: Weapon = {
@@ -265,12 +281,13 @@ const BETTINA: Weapon = {
     fireRate: 32.0,
     stability: 76.4,
     stealth: 14.0,
-    shotsPerSecond: NaN,
+    shotsPerSecond: 4.78,
     rarity: Rarity.Epic,
     rawImagePath: 'src/raw-images/weapons/wiki/bettina.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.05, 1.1, 1.15],
+    projectiles: 1,
 }
 
 const JUPITER: Weapon = {
@@ -285,8 +302,9 @@ const JUPITER: Weapon = {
     rarity: Rarity.Legendary,
     rawImagePath: 'src/raw-images/weapons/wiki/jupiter.png',
     tryingHeadshotsMakeSense: true,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 const EQUALIZER: Weapon = {
@@ -301,8 +319,9 @@ const EQUALIZER: Weapon = {
     rarity: Rarity.Legendary,
     rawImagePath: 'src/raw-images/weapons/wiki/equalizer.png',
     tryingHeadshotsMakeSense: false,
-    headshotMultiplier: 2.5,
+    headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
+    projectiles: 1,
 }
 
 export const weapons: Weapon[] = [
