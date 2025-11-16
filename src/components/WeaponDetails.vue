@@ -81,10 +81,9 @@
 </template>
 
 <script setup lang="ts">
-import type { Weapon } from './models';
+import type { Weapon } from '../models';
 import { calculateHitsAmount } from '../damage_calculator';
 import { shields } from '../shields_data';
-import { shotsPerSecond } from '../weapons_util';
 import { ref } from 'vue';
 
 interface Props {
@@ -104,7 +103,7 @@ function calculateHitsToKill(weapon: Weapon, columnIndex: number, isFirstHitHead
 }
 
 function calculateTimeToKill(weapon: Weapon, columnIndex: number, isFirstHitHeadshot: boolean): number {
-  const shotsPerSecond = weapon.shotsPerSecond * weapon.increasedFireRateByLevel[props.upgradeLevel - 1];
+  const shotsPerSecond = weapon.shotsPerSecond * weapon.increasedFireRateByLevel[props.upgradeLevel - 1]!;
   // const shotsPerSecond = weapon.shotsPerSecond;
   // console.log(props.upgradeLevel);
   return ((calculateHitsToKill(weapon, columnIndex, isFirstHitHeadshot) - 1) / shotsPerSecond);

@@ -8,7 +8,7 @@ const path = require('path');
 async function processWeaponScreenshotImages() {
     const inputDir = path.join(__dirname, '../raw-images/weapons/screenshots');
     const outputDir = path.join(__dirname, '../assets/weapons/screenshots');
-    fs.readdir(inputDir, async (err, files) => {
+    fs.readdir(inputDir, async (err: any, files: any) => {
         if (err) {
             console.error(err);
             return;
@@ -45,7 +45,7 @@ async function processWeaponWikiImages() {
 async function processArmorImages() {
     const inputDir = path.join(__dirname, '../raw-images/armors');
     const outputDir = path.join(__dirname, '../assets/armors');
-    fs.readdir(inputDir, async (err, files) => {
+    fs.readdir(inputDir, async (err: any, files: any) => {
         if (err) {
             console.error(err);
             return;

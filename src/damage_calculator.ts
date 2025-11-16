@@ -1,10 +1,14 @@
 class DamageCalculator {
+    shieldAmount: number;
+    damageReduction: number;
     health: number = 100.0;
 
     constructor(
-        private shieldAmount: number,
-        private damageReduction: number
+        shieldAmount: number,
+        damageReduction: number
     ) {
+        this.shieldAmount = shieldAmount;
+        this.damageReduction = damageReduction;
         this.health = 100.0;
     }
 

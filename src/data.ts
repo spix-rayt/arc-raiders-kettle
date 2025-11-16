@@ -1,4 +1,4 @@
-import type { Item, ItemAmount } from "./models";
+import type { Item } from "./models";
 import { Rarity, Category } from "./models";
 
 const LIGHT_AMMO: Item = {
