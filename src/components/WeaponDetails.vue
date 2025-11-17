@@ -2,28 +2,36 @@
   <div class="weapon-details">
     <div class="stats-grid">
       <div class="stat-item">
-        <label>Damage:</label>
+        <label>Damage</label>
         <span class="stat-value">{{ weapon.damage }}</span>
       </div>
       <div class="stat-item">
-        <label>Fire Rate:</label>
+        <label>Fire Rate</label>
         <span class="stat-value">{{ weapon.fireRate }} ({{ calculateShotsPerSecond(weapon).toFixed(2) }}/s)</span>
       </div>
       <div class="stat-item">
-        <label>Range:</label>
+        <label>Range</label>
         <span class="stat-value">{{ weapon.range }}</span>
       </div>
       <div class="stat-item">
-        <label>Stability:</label>
+        <label>Stability</label>
         <span class="stat-value">{{ weapon.stability }}</span>
       </div>
       <div class="stat-item">
-        <label>Agility:</label>
+        <label>Agility</label>
         <span class="stat-value">{{ weapon.agility }}</span>
       </div>
       <div class="stat-item">
-        <label>Stealth:</label>
+        <label>Stealth</label>
         <span class="stat-value">{{ weapon.stealth }}</span>
+      </div>
+      <div class="stat-item">
+        <label>Headshot multiplier</label>
+        <span class="stat-value">{{ weapon.headshotMultiplier }}x</span>
+      </div>
+      <div class="stat-item">
+        <label>Magazine size</label>
+        <span class="stat-value">{{ weapon.magazineSizePerLevel[upgradeLevel - 1] }}</span>
       </div>
     </div>
 

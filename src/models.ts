@@ -51,6 +51,7 @@ export interface Weapon {
   headshotMultiplier: number,
   increasedFireRateByLevel: number[],
   projectiles: number,
+  magazineSizePerLevel: number[],
 }
 
 export interface Shield {

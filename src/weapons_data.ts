@@ -16,6 +16,7 @@ const STITCHER: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [20, 20, 20, 20],
 }
 
 const FERRO: Weapon = {
@@ -33,6 +34,7 @@ const FERRO: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.13, 1.26, 1.39],
     projectiles: 1,
+    magazineSizePerLevel: [1, 1, 1, 1],
 }
 
 const KETTLE: Weapon = {
@@ -50,6 +52,7 @@ const KETTLE: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [20, 20, 20, 20],
 }
 
 const RATTLER: Weapon = {
@@ -67,6 +70,7 @@ const RATTLER: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [10, 14, 18, 22],
 }
 
 const HAIRPIN: Weapon = {
@@ -84,6 +88,7 @@ const HAIRPIN: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
     projectiles: 1,
+    magazineSizePerLevel: [8, 8, 8, 8],
 }
 
 const IL_TORO: Weapon = {
@@ -101,6 +106,7 @@ const IL_TORO: Weapon = {
     headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.175, 1.35, 1.5],
     projectiles: 1,
+    magazineSizePerLevel: [5, 6, 7, 8],
 }
 
 const BURLETTA: Weapon = {
@@ -118,6 +124,7 @@ const BURLETTA: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [12, 12, 12, 12],
 }
 
 const ARPEGGIO: Weapon = {
@@ -135,6 +142,7 @@ const ARPEGGIO: Weapon = {
     headshotMultiplier: 2.75,
     increasedFireRateByLevel: [1.0, 1.2, 1.4, 1.6],
     projectiles: 1,
+    magazineSizePerLevel: [24, 24, 24, 24],
 }
 
 const ANVIL: Weapon = {
@@ -152,6 +160,7 @@ const ANVIL: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
     projectiles: 1,
+    magazineSizePerLevel: [6, 6, 6, 6],
 }
 
 const TORRENTE: Weapon = {
@@ -169,6 +178,7 @@ const TORRENTE: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [60, 70, 80, 90],
 }
 
 const VENATOR: Weapon = {
@@ -186,6 +196,7 @@ const VENATOR: Weapon = {
     headshotMultiplier: 2.5,
     increasedFireRateByLevel: [1.0, 1.22, 1.44, 1.66],
     projectiles: 2,
+    magazineSizePerLevel: [10, 10, 10, 10],
 }
 
 const RENEGADE: Weapon = {
@@ -203,6 +214,7 @@ const RENEGADE: Weapon = {
     headshotMultiplier: 2.25,
     increasedFireRateByLevel: [1.0, 1.25, 1.5, 1.75],
     projectiles: 1,
+    magazineSizePerLevel: [8, 8, 8, 8],
 }
 
 const OSPREY: Weapon = {
@@ -224,6 +236,7 @@ const OSPREY: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.084, 1.16, 1.252],
     projectiles: 1,
+    magazineSizePerLevel: [8, 8, 8, 8],
 }
 
 const TEMPEST: Weapon = {
@@ -241,6 +254,7 @@ const TEMPEST: Weapon = {
     headshotMultiplier: 1.5,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [25, 25, 25, 25],
 }
 
 const BOBCAT: Weapon = {
@@ -258,6 +272,7 @@ const BOBCAT: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [20, 20, 20, 20],
 }
 
 const VULCANO: Weapon = {
@@ -275,6 +290,7 @@ const VULCANO: Weapon = {
     headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
     projectiles: 1,
+    magazineSizePerLevel: [6, 6, 6, 6],
 }
 
 const BETTINA: Weapon = {
@@ -292,6 +308,7 @@ const BETTINA: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.05, 1.1, 1.15],
     projectiles: 1,
+    magazineSizePerLevel: [20, 20, 20, 20],
 }
 
 const JUPITER: Weapon = {
@@ -309,6 +326,7 @@ const JUPITER: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [5, 5, 5, 5],
 }
 
 const EQUALIZER: Weapon = {
@@ -326,6 +344,7 @@ const EQUALIZER: Weapon = {
     headshotMultiplier: 2.0,
     increasedFireRateByLevel: [1.0, 1.0, 1.0, 1.0],
     projectiles: 1,
+    magazineSizePerLevel: [50, 50, 50, 50],
 }
 
 export const weapons: Weapon[] = [

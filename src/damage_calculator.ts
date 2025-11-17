@@ -15,10 +15,9 @@ class DamageCalculator {
     }
 
     public hitBody(damage: number, projectiles: number): void {
-        this.warnIfShieldAlmostZero();
         const damagePerProjectile = damage / projectiles;
         for (let i: number = 0; i < projectiles; i++) {
-            if (this.shieldAmount > 0.0) {
+            if (this.isShieldActive()) {
                 this.health -= damagePerProjectile * (1.0 - this.damageReduction);
                 this.shieldAmount -= damagePerProjectile;
             } else {
@@ -28,16 +27,20 @@ class DamageCalculator {
     }
 
     public hitHead(damage: number, headshotMultiplier: number, projectiles: number) {
-        this.warnIfShieldAlmostZero();
         const damagePerProjectile = damage / projectiles;
         for (let i: number = 0; i < projectiles; i++) {
-            if (this.shieldAmount > 0.0) {
+            if (this.isShieldActive()) {
                 this.health -= damagePerProjectile * (1.0 - this.damageReduction) * headshotMultiplier;
                 this.shieldAmount -= damagePerProjectile;
             } else {
                 this.health -= damagePerProjectile * headshotMultiplier;
             }
         }
+    }
+
+    public isShieldActive() {
+        this.warnIfShieldAlmostZero();
+        return this.shieldAmount > 0.0;
     }
 
     public warnIfShieldAlmostZero() {
