@@ -105,7 +105,7 @@ const IL_TORO: Weapon = {
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.175, 1.35, 1.5],
-    projectiles: 1,
+    projectiles: 9,
     magazineSizePerLevel: [5, 6, 7, 8],
 }
 
@@ -289,7 +289,7 @@ const VULCANO: Weapon = {
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 1.0,
     increasedFireRateByLevel: [1.0, 1.1, 1.2, 1.3],
-    projectiles: 1,
+    projectiles: 9,
     magazineSizePerLevel: [6, 6, 6, 6],
 }
 
