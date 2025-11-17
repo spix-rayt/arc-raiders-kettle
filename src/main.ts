@@ -1,22 +1,39 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import './style.css'
 import App from './App.vue'
+import { createHead } from '@unhead/vue/client'
 
-// Импортируем компоненты страниц
-import Home from './components/Home.vue';
+import About from './components/About.vue';
 import Items from './components/Items.vue';
 import Weapons from './components/Weapons.vue';
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/items', component: Items },
-  { path: '/weapons', component: Weapons }
+  {
+    path: '/',
+    name: 'about',
+    component: About
+  },
+  {
+    path: '/items',
+    name: 'items',
+    component: Items
+  },
+  {
+    path: '/weapons',
+    name: 'weapons',
+    component: Weapons
+  }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
 
-createApp(App).use(router).mount('#app')
+const head = createHead()
+const app = createApp(App)
+
+app.use(head)
+app.use(router)
+app.mount('#app')

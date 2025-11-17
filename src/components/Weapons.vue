@@ -51,9 +51,17 @@ import WeaponDetails from './WeaponDetails.vue'
 import type { Weapon } from '../models'
 import { weapons } from '../weapons_data'
 import { getRarityColor } from '../rarity_color';
+import { useSeoMeta } from '@unhead/vue';
+
+useSeoMeta({
+  title: 'Arc Raiders weapons list',
+  description: 'Arc raiders all weapons list. Weapon stats like damage, headshot multipliers, hits to kill and time to kill',
+  ogTitle: 'Arc Raiders weapons list',
+  ogDescription: 'Arc raiders all weapons list. Weapon stats like damage, headshot multipliers, hits to kill and time to kill'
+});
 
 const selectedWeapon = ref<Weapon | null>(null)
-const upgradeLevel = ref(4) // По умолчанию выбрана IV
+const upgradeLevel = ref(4)
 
 function getWeaponImage(weapon: Weapon): string {
   return new URL(`../assets/weapons/${weapon.name.toLowerCase().replace(/\s+/g, '')}.jpg`, import.meta.url).href;

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>About</h1>
-    <p>Arc Raiders theorycrafting and some useful tools</p>
+    <h1>Arc Raiders Theorycrafting Tools</h1>
     <h2>Unconfirmed answers:</h2>
     <ul>
       <li>
@@ -46,6 +45,18 @@
 </template>
 
 <script setup lang="ts">
+
+import { useSeoMeta } from '@unhead/vue';
+
+useSeoMeta({
+  title: 'About - Arc raiders theorycrafting',
+  description: 'Arc Raiders theorycrafting tools, damage calculations, and game mechanics analysis',
+  ogTitle: 'Arc Raiders Theorycrafting Tools',
+  ogDescription: 'Comprehensive theorycrafting tools for Arc Raiders including damage calculations, weapon stats, and game mechanics',
+});
+
+
+
 </script>
 
 <style scoped>

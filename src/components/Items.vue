@@ -25,6 +25,15 @@ import { items } from '../data';
 import { type Item } from '../models';
 import ItemDetails from './ItemDetails.vue';
 import { getRarityColor } from '../rarity_color';
+import { useSeoMeta } from '@unhead/vue';
+
+useSeoMeta({
+  title: 'Items',
+  description: 'Arc raiders all items list',
+  ogTitle: 'Arc raiders all items list',
+  ogDescription: 'Arc raiders all items list'
+});
+
 
 const selectedItem = ref<Item | null>(null);
 </script>
