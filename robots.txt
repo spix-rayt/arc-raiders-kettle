@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spix-rayt.github.io/arc-raiders-kettle/sitemap.xml
