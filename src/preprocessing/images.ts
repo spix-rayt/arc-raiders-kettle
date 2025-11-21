@@ -1,12 +1,11 @@
 import { BlendMode, Jimp } from "jimp";
 import { weapons } from "../data_weapons";
-import { Category, Rarity } from "../models";
+import { Rarity } from "../models";
 import { getId } from "../util";
 const fs = require('fs');
 var fsp = require('fs/promises');
 const path = require('path');
 import { Items } from "../data_items";
-import constants from "constants";
 
 async function processWeaponScreenshotImages() {
     const inputDir = path.join(__dirname, '../raw-images/weapons/screenshots');

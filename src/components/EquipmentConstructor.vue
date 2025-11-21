@@ -157,7 +157,7 @@
 import { ref, computed, reactive } from 'vue'
 import { Items } from '../data_items'
 import { weapons } from '../data_weapons'
-import type { Item, Weapon, Shield, Rarity, Category } from '../models'
+import type { Item, Weapon, Shield } from '../models'
 
 // Типы для снаряжения
 interface Equipment {
@@ -165,11 +165,6 @@ interface Equipment {
   shield: Shield | null
   weapons: (Weapon | null)[]
   quickUse: { item: Item | null; amount: number }[]
-}
-
-interface QuickUseItem {
-  item: Item
-  amount: number
 }
 
 // Состояние компонента

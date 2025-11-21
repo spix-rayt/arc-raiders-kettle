@@ -1,8 +1,8 @@
 <template>
   <div class="item-details">
-    <div v-if="item">
+    <!-- <div v-if="item">
       <h2>{{ item.name }}</h2>
-      <p>{{ item.category }}</p>
+      <p>{{ item.category }}</p> -->
       
       <!-- <div v-if="item.craft != null && item.craft.length > 0">
         <h3>Craft:</h3>
@@ -34,29 +34,29 @@
       <!-- <div v-if="!hasCrafting && !hasRecycling">
         <p>No crafting or recycling information available.</p>
       </div> -->
-    </div>
-    <div v-else>
+    <!-- </div> -->
+    <!-- <div v-else>
       <p>Select an item to view details</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
-import { type Item } from '../models';
+// import { computed } from 'vue';
+// import { type Item } from '../models';
 
-const props = defineProps<{
-  item: Item | null;
-}>();
+// const props = defineProps<{
+//   item: Item | null;
+// }>();
 
-const hasCrafting = computed(() => 
-  props.item?.craft && props.item.craft.length > 0
-);
+// const hasCrafting = computed(() => 
+//   props.item?.craft && props.item.craft.length > 0
+// );
 
-const hasRecycling = computed(() => 
-  (props.item?.recyclesToAtHome && props.item.recyclesToAtHome.length > 0) ||
-  (props.item?.recyclesToAtTop && props.item.recyclesToAtTop.length > 0)
-);
+// const hasRecycling = computed(() => 
+//   (props.item?.recyclesToAtHome && props.item.recyclesToAtHome.length > 0) ||
+//   (props.item?.recyclesToAtTop && props.item.recyclesToAtTop.length > 0)
+// );
 </script>
 
 <style scoped>
