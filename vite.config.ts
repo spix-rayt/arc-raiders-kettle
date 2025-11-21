@@ -4,7 +4,6 @@ import prerender from 'vite-plugin-prerender'
 import sitemap from 'vite-plugin-sitemap'
 import path from 'path'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     vue(),

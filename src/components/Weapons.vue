@@ -49,8 +49,8 @@
 import { ref } from 'vue'
 import WeaponDetails from './WeaponDetails.vue'
 import type { Weapon } from '../models'
-import { weapons } from '../weapons_data'
-import { getRarityColor } from '../rarity_color';
+import { weapons } from '../data_weapons'
+import { getId, getRarityColor } from '../util';
 import { useSeoMeta } from '@unhead/vue';
 
 useSeoMeta({
@@ -64,7 +64,7 @@ const selectedWeapon = ref<Weapon | null>(null)
 const upgradeLevel = ref(4)
 
 function getWeaponImage(weapon: Weapon): string {
-  return new URL(`../assets/weapons/${weapon.name.toLowerCase().replace(/\s+/g, '')}.jpg`, import.meta.url).href;
+  return new URL(`../assets/weapons/${getId(weapon.name)}.jpg`, import.meta.url).href;
 }
 
 function getRomanNumeral(level: number): string {

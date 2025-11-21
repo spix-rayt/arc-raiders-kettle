@@ -3,14 +3,14 @@
     <!-- Левая часть - сетка иконок предметов -->
     <div class="items-grid">
       <div 
-        v-for="item in items" 
+        v-for="item in Object.values(Items)" 
         :key="item.name"
         class="item-icon"
         :class="{ active: selectedItem?.name === item.name }"
         :style="{ borderColor: getRarityColor(item.rarity) }"
         @click="selectedItem = item"
       >
-        <div class="icon-placeholder"></div>
+        <img class="icon-placeholder" :src="item.imagePath" />
       </div>
     </div>
 
@@ -21,10 +21,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { items } from '../data';
+import { Items } from '../data_items';
 import { type Item } from '../models';
 import ItemDetails from './ItemDetails.vue';
-import { getRarityColor } from '../rarity_color';
+import { getRarityColor } from '../util';
 import { useSeoMeta } from '@unhead/vue';
 
 useSeoMeta({

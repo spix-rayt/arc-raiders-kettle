@@ -2,9 +2,9 @@
   <div class="item-details">
     <div v-if="item">
       <h2>{{ item.name }}</h2>
-      <p>{{ item.category.join(', ') }}</p>
+      <p>{{ item.category }}</p>
       
-      <div v-if="item.craft != null && item.craft.length > 0">
+      <!-- <div v-if="item.craft != null && item.craft.length > 0">
         <h3>Craft:</h3>
         <ul>
           <li v-for="ingredient in item.craft" :key="ingredient.item.name">
@@ -29,11 +29,11 @@
             {{ result.item.name }} (x{{ result.amount }})
           </li>
         </ul>
-      </div>
+      </div> -->
 
-      <div v-if="!hasCrafting && !hasRecycling">
+      <!-- <div v-if="!hasCrafting && !hasRecycling">
         <p>No crafting or recycling information available.</p>
-      </div>
+      </div> -->
     </div>
     <div v-else>
       <p>Select an item to view details</p>

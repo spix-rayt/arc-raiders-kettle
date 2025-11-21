@@ -41,6 +41,9 @@
         <a href="https://www.reddit.com/r/ArcRaiders/comments/1owrpq8/ttkshots_to_kill_lvl_iv_weapons_v/" target="_blank">How headshot damage applies to shield</a>
       </li>
     </ul>
+
+    <h2>Feel free for report found issues</h2>
+    <a href="https://github.com/spix-rayt/arc-raiders-kettle/issues" target="_blank">Report issue</a>
   </div>
 </template>
 

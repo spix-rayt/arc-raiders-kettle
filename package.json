@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "process-images": "npx tsx src/preprocessing/images.ts",
+    "process-arcraiders-data": "npx tsx src/preprocessing/arcraiders-data.ts",
     "dev": "vite",
     "build": "npm run process-images && vue-tsc -b && vite build",
     "preview": "vite preview",

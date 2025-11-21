@@ -5,6 +5,7 @@ export const Rarity = {
   Epic: "Epic",
   Legendary: "Legendary",
 } as const;
+export type Rarity = typeof Rarity[keyof typeof Rarity];
 
 export const Category = {
   Nature: "Nature",
@@ -15,25 +16,45 @@ export const Category = {
   Ammunition: "Ammunition",
   Refined: "Refined",
   Basic: "Basic",
-  QuickUse: "Quick Use"
+  QuickUse: "QuickUse",
+  Modification: "Modification",
+  Blueprint: "Blueprint",
+  HandCannon: "HandCannon",
+  AssaultRifle: "AssaultRifle",
+  BattleRifle: "BattleRifle",
+  Cosmetic: "Cosmetic",
+  BackpackCharm: "BackpackCharm",
+  Key: "Key",
+  Pistol: "Pistol",
+  Weapon: "Weapon",
+  Augment: "Augment",
+  LMG: "LMG",
+  Shield: "Shield",
+  Special: "Special",
+  Shotgun: "Shotgun",
+  SniperRifle: "SniperRifle",
+  Material: "Material",
+  Outfit: "Outfit",
 } as const;
-
-export type Rarity = typeof Rarity[keyof typeof Rarity];
 export type Category = typeof Category[keyof typeof Category];
 
-// Data class для связи предмета и его количества
-export interface ItemAmount {
+export class ItemAmount {
   item: Item;
   amount: number;
+
+  constructor(item: Item, amount: number) {
+    this.item = item;
+    this.amount = amount;
+  }
 }
 
 export interface Item {
   name: string;
   rarity: Rarity;
-  category: Category[];
-  recyclesToAtHome?: ItemAmount[];
-  recyclesToAtTop?: ItemAmount[];
-  craft?: ItemAmount[];
+  category: Category;
+  rawImagePath: string;
+  imagePath: string;
+  stackSize: number;
 }
 
 export interface Weapon {
@@ -45,13 +66,13 @@ export interface Weapon {
   stability: number;
   stealth: number;
   shotsPerSecond: number;
-  rarity: Rarity,
-  rawImagePath: string,
-  tryingHeadshotsMakeSense: boolean,
-  headshotMultiplier: number,
-  increasedFireRateByLevel: number[],
-  projectiles: number,
-  magazineSizePerLevel: number[],
+  rarity: Rarity;
+  rawImagePath: string;
+  tryingHeadshotsMakeSense: boolean;
+  headshotMultiplier: number;
+  increasedFireRateByLevel: number[];
+  projectiles: number;
+  magazineSizePerLevel: number[];
 }
 
 export interface Shield {

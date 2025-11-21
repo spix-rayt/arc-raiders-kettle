@@ -11,6 +11,9 @@
         <li>
           <router-link to="/weapons">Weapons</router-link>
         </li>
+        <li v-if="isDev">
+          <router-link to="/equipment">Equipment</router-link>
+        </li>
       </ul>
     </nav>
     

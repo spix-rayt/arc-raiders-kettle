@@ -194,7 +194,7 @@ const VENATOR: Weapon = {
     rawImagePath: 'src/raw-images/weapons/wiki/venator.png',
     tryingHeadshotsMakeSense: false,
     headshotMultiplier: 2.5,
-    increasedFireRateByLevel: [1.0, 1.22, 1.44, 1.66],
+    increasedFireRateByLevel: [1.0, 1.13, 1.26, 1.40],
     projectiles: 2,
     magazineSizePerLevel: [10, 10, 10, 10],
 }

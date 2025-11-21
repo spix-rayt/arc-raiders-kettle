@@ -89,7 +89,7 @@
 <script setup lang="ts">
 import type { Weapon } from '../models';
 import { calculateHitsAmount } from '../damage_calculator';
-import { shields } from '../shields_data';
+import { shields } from '../data_shields';
 import { ref } from 'vue';
 
 interface Props {

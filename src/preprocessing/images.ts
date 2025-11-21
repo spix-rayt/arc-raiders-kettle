@@ -1,9 +1,12 @@
 import { BlendMode, Jimp } from "jimp";
-import { weapons } from "../weapons_data";
-import { Rarity } from "../models";
+import { weapons } from "../data_weapons";
+import { Category, Rarity } from "../models";
+import { getId } from "../util";
 const fs = require('fs');
 var fsp = require('fs/promises');
 const path = require('path');
+import { Items } from "../data_items";
+import constants from "constants";
 
 async function processWeaponScreenshotImages() {
     const inputDir = path.join(__dirname, '../raw-images/weapons/screenshots');
@@ -35,7 +38,7 @@ async function processWeaponWikiImages() {
             mode: BlendMode.DST_OVER,
         });
         image.resize({ w: 256, h: 128 });
-        const outputFilename = `${weapon.name.toLowerCase().replace(/\s+/g, '')}.jpg`;
+        const outputFilename = `${getId(weapon.name)}.jpg`;
         const outputPath = path.join(outputDir, outputFilename);
         await fsp.mkdir(outputDir, { recursive: true });
         await image.write(outputPath);
@@ -66,6 +69,42 @@ async function processArmorImages() {
     });
 }
 
+async function processItemImages() {
+    const outputDir = 'src/assets/items';
+    const items = new Map(Object.entries(Items));
+    items.forEach(async (item, id) => {
+        try {
+            if (fs.existsSync(item.rawImagePath)) {
+                const image = await Jimp.read(item.rawImagePath);
+                image.resize({ w: 512, h: 512 });
+                const backgroundImage = await imageBackgroundByRarity(item.rarity);
+                backgroundImage.resize({ w: 512, h: 512 });
+                image.composite(backgroundImage, 0, 0, {
+                    mode: BlendMode.DST_OVER,
+                });
+                image.resize({ w: 128, h: 128 });
+                const outputFilename = `${id}.jpg`;
+                const outputPath = path.join(outputDir, outputFilename);
+                await fsp.mkdir(outputDir, { recursive: true });
+                await image.write(outputPath);
+            } else {
+                const backgroundImage = await imageBackgroundByRarity(item.rarity);
+                backgroundImage.resize({ w: 128, h: 128 });
+                const outputFilename = `${id}.jpg`;
+                const outputPath = path.join(outputDir, outputFilename);
+                await fsp.mkdir(outputDir, { recursive: true });
+                await backgroundImage.write(outputPath);
+            }
+        } catch (error: any) {
+            if (error.message.includes("webp")) {
+                console.warn(`skip ${id}`);
+            } else {
+                throw error;
+            }
+        }
+    });
+}
+
 async function imageBackgroundByRarity(rarity: Rarity) {
     if (rarity == Rarity.Common) {
         return await Jimp.read('src/raw-images/background/gray-gradient.png');
@@ -82,8 +121,10 @@ async function imageBackgroundByRarity(rarity: Rarity) {
     if (rarity == Rarity.Legendary) {
         return await Jimp.read('src/raw-images/background/gold-gradient.png');
     }
+    throw new Error(`can not get background image for ${rarity}`);
 }
 
 processWeaponScreenshotImages();
 processWeaponWikiImages();
 processArmorImages();
+processItemImages();

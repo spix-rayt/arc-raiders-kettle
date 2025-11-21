@@ -7,6 +7,7 @@ import { createHead } from '@unhead/vue/client'
 import About from './components/About.vue';
 import Items from './components/Items.vue';
 import Weapons from './components/Weapons.vue';
+import EquipmentConstructor from './components/EquipmentConstructor.vue'
 
 const routes = [
   {
@@ -23,7 +24,12 @@ const routes = [
     path: '/weapons',
     name: 'weapons',
     component: Weapons
-  }
+  },
+  {
+    path: '/equipment',
+    name: 'equipment',
+    component: EquipmentConstructor
+  },
 ]
 
 const router = createRouter({
