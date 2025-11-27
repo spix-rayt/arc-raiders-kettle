@@ -29,6 +29,9 @@
     <h2>Used resources:</h2>
     <ul>
       <li>
+        <a href="https://github.com/RaidTheory/arcraiders-data">Arc Raiders JSON data</a>
+      </li>
+      <li>
         <a href="https://www.anvil.work.gd/" target="_blank">Headshot multipliers</a>
       </li>
       <li>

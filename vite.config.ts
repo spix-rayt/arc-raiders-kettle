@@ -9,13 +9,13 @@ export default defineConfig({
     vue(),
     prerender({
       staticDir: path.join(__dirname, 'dist'),
-      routes: ['/', '/items', '/weapons'],
+      routes: ['/', '/items', '/weapons', '/craft-space-saving-score'],
     }),
     sitemap({
       hostname: 'https://spix-rayt.github.io/arc-raiders-kettle',
       basePath: '/arc-raiders-kettle',
       outDir: 'dist',
-      dynamicRoutes: ['/', '/items', '/weapons']
+      dynamicRoutes: ['/', '/items', '/weapons', '/craft-space-saving-score']
     })
   ],
   base: "/arc-raiders-kettle/",

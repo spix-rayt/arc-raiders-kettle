@@ -8,6 +8,7 @@ import About from './components/About.vue';
 import Items from './components/Items.vue';
 import Weapons from './components/Weapons.vue';
 import EquipmentConstructor from './components/EquipmentConstructor.vue'
+import StashCraftSpaceValue from './components/VueCraftSpaceSavingScore.vue'
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
     path: '/equipment',
     name: 'equipment',
     component: EquipmentConstructor
+  },
+  {
+    path: '/craft-space-saving-score',
+    name: 'craft-space-saving-score',
+    component: StashCraftSpaceValue
   },
 ]
 

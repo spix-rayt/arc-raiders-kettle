@@ -8,7 +8,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/adrenaline_shot.png",
         imagePath: new URL(`./assets/items/adrenaline_shot.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     advanced_arc_powercell: {
         name: "Advanced ARC Powercell",
@@ -16,7 +17,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/advanced_arc_powercell.png",
         imagePath: new URL(`./assets/items/advanced_arc_powercell.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     advanced_electrical_components: {
         name: "Advanced Electrical Components",
@@ -24,7 +26,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/advanced_electrical_components.png",
         imagePath: new URL(`./assets/items/advanced_electrical_components.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     advanced_mechanical_components: {
         name: "Advanced Mechanical Components",
@@ -32,7 +35,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/advanced_mechanical_components.png",
         imagePath: new URL(`./assets/items/advanced_mechanical_components.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     agave: {
         name: "Agave",
@@ -40,7 +44,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/agave.png",
         imagePath: new URL(`./assets/items/agave.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     air_freshener: {
         name: "Air Freshener",
@@ -48,7 +53,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/air_freshener.png",
         imagePath: new URL(`./assets/items/air_freshener.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     alarm_clock: {
         name: "Alarm Clock",
@@ -56,7 +62,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/alarm_clock.png",
         imagePath: new URL(`./assets/items/alarm_clock.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     angled_grip_i: {
         name: "Angled Grip I",
@@ -64,7 +71,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/angled_grip_i.png",
         imagePath: new URL(`./assets/items/angled_grip_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     angled_grip_ii: {
         name: "Angled Grip II",
@@ -72,7 +80,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/angled_grip_ii.png",
         imagePath: new URL(`./assets/items/angled_grip_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     angled_grip_iii: {
         name: "Angled Grip III",
@@ -80,7 +89,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/angled_grip_iii.png",
         imagePath: new URL(`./assets/items/angled_grip_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     antiseptic: {
         name: "Antiseptic",
@@ -88,7 +98,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/antiseptic.png",
         imagePath: new URL(`./assets/items/antiseptic.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     anvil_blueprint: {
         name: "Anvil Blueprint",
@@ -96,7 +107,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/anvil_blueprint.png",
         imagePath: new URL(`./assets/items/anvil_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     anvil_i: {
         name: "Anvil I",
@@ -104,7 +116,8 @@ export const Items = {
         category: Category.HandCannon,
         rawImagePath: "arcraiders-data/images/items/anvil.png",
         imagePath: new URL(`./assets/items/anvil_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     anvil_ii: {
         name: "Anvil II",
@@ -112,7 +125,8 @@ export const Items = {
         category: Category.HandCannon,
         rawImagePath: "arcraiders-data/images/items/anvil.png",
         imagePath: new URL(`./assets/items/anvil_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     anvil_iii: {
         name: "Anvil III",
@@ -120,7 +134,8 @@ export const Items = {
         category: Category.HandCannon,
         rawImagePath: "arcraiders-data/images/items/anvil.png",
         imagePath: new URL(`./assets/items/anvil_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     anvil_iv: {
         name: "Anvil IV",
@@ -128,7 +143,8 @@ export const Items = {
         category: Category.HandCannon,
         rawImagePath: "arcraiders-data/images/items/anvil.png",
         imagePath: new URL(`./assets/items/anvil_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     anvil_splitter: {
         name: "Anvil Splitter",
@@ -136,7 +152,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/anvil_splitter.png",
         imagePath: new URL(`./assets/items/anvil_splitter.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     apricot: {
         name: "Apricot",
@@ -144,7 +161,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/apricot.png",
         imagePath: new URL(`./assets/items/apricot.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     arc_alloy: {
         name: "ARC Alloy",
@@ -152,7 +170,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/arc_alloy.png",
         imagePath: new URL(`./assets/items/arc_alloy.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     arc_circuitry: {
         name: "ARC Circuitry",
@@ -160,7 +179,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/arc_circuitry.png",
         imagePath: new URL(`./assets/items/arc_circuitry.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     arc_coolant: {
         name: "ARC Coolant",
@@ -168,7 +188,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/arc_coolant.png",
         imagePath: new URL(`./assets/items/arc_coolant.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     arc_flex_rubber: {
         name: "ARC Flex Rubber",
@@ -176,7 +197,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/arc_flex_rubber.png",
         imagePath: new URL(`./assets/items/arc_flex_rubber.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     arc_motion_core: {
         name: "ARC Motion Core",
@@ -184,7 +206,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/arc_motion_core.png",
         imagePath: new URL(`./assets/items/arc_motion_core.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     arc_performance_steel: {
         name: "ARC Performance Steel",
@@ -192,7 +215,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/arc_performance_steel.png",
         imagePath: new URL(`./assets/items/arc_performance_steel.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     arc_powercell: {
         name: "ARC Powercell",
@@ -200,7 +224,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/arc_powercell.png",
         imagePath: new URL(`./assets/items/arc_powercell.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     arc_synthetic_resin: {
         name: "ARC Synthetic Resin",
@@ -208,7 +233,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/arc_synthetic_resin.png",
         imagePath: new URL(`./assets/items/arc_synthetic_resin.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     arc_thermo_lining: {
         name: "ARC Thermo Lining",
@@ -216,7 +242,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/arc_thermo_lining.png",
         imagePath: new URL(`./assets/items/arc_thermo_lining.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     arpeggio_i: {
         name: "Arpeggio I",
@@ -224,7 +251,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/arpeggio.png",
         imagePath: new URL(`./assets/items/arpeggio_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     arpeggio_ii: {
         name: "Arpeggio II",
@@ -232,7 +260,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/arpeggio.png",
         imagePath: new URL(`./assets/items/arpeggio_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     arpeggio_iii: {
         name: "Arpeggio III",
@@ -240,7 +269,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/arpeggio.png",
         imagePath: new URL(`./assets/items/arpeggio_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     arpeggio_iv: {
         name: "Arpeggio IV",
@@ -248,7 +278,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/arpeggio.png",
         imagePath: new URL(`./assets/items/arpeggio_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     assorted_seeds: {
         name: "Assorted Seeds",
@@ -256,7 +287,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/assorted_seeds.png",
         imagePath: new URL(`./assets/items/assorted_seeds.jpg`, import.meta.url).href,
-        stackSize: 100
+        stackSize: 100,
+        craftedQuantity: 1,
     } as Item,
     banana: {
         name: "Banana",
@@ -264,7 +296,8 @@ export const Items = {
         category: Category.BackpackCharm,
         rawImagePath: "arcraiders-data/images/items/banana.png",
         imagePath: new URL(`./assets/items/banana.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     bandage: {
         name: "Bandage",
@@ -272,7 +305,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/bandage.png",
         imagePath: new URL(`./assets/items/bandage.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     barricade_kit: {
         name: "Barricade Kit",
@@ -280,7 +314,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/barricade_kit.png",
         imagePath: new URL(`./assets/items/barricade_kit.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     barricade_kit_blueprint: {
         name: "Barricade Kit Blueprint",
@@ -288,7 +323,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/barricade_kit.png",
         imagePath: new URL(`./assets/items/barricade_kit_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bastion_cell: {
         name: "Bastion Cell",
@@ -296,7 +332,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/bastion_cell.png",
         imagePath: new URL(`./assets/items/bastion_cell.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     battery: {
         name: "Battery",
@@ -304,7 +341,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/battery.png",
         imagePath: new URL(`./assets/items/battery.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     bettina_blueprint: {
         name: "Bettina Blueprint",
@@ -312,7 +350,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/bettina_blueprint.png",
         imagePath: new URL(`./assets/items/bettina_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bettina_i: {
         name: "Bettina I",
@@ -320,7 +359,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/bettina.png",
         imagePath: new URL(`./assets/items/bettina_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bettina_ii: {
         name: "Bettina II",
@@ -328,7 +368,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/bettina.png",
         imagePath: new URL(`./assets/items/bettina_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bettina_iii: {
         name: "Bettina III",
@@ -336,7 +377,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/bettina.png",
         imagePath: new URL(`./assets/items/bettina_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bettina_iv: {
         name: "Bettina IV",
@@ -344,7 +386,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/bettina.png",
         imagePath: new URL(`./assets/items/bettina_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bicycle_pump: {
         name: "Bicycle Pump",
@@ -352,7 +395,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/bicycle_pump.png",
         imagePath: new URL(`./assets/items/bicycle_pump.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     binoculars: {
         name: "Binoculars",
@@ -360,7 +404,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/binoculars.png",
         imagePath: new URL(`./assets/items/binoculars.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     blaze_grenade: {
         name: "Blaze Grenade",
@@ -368,7 +413,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/blaze_grenade.png",
         imagePath: new URL(`./assets/items/blaze_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     blaze_grenade_blueprint: {
         name: "Blaze Grenade Blueprint",
@@ -376,7 +422,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/blaze_grenade.png",
         imagePath: new URL(`./assets/items/blaze_grenade_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     blaze_grenade_trap: {
         name: "Blaze Grenade Trap",
@@ -384,7 +431,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/blaze_grenade_trap.png",
         imagePath: new URL(`./assets/items/blaze_grenade_trap.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     bloated_tuna_can: {
         name: "Bloated Tuna Can",
@@ -392,7 +440,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/bloated_tuna_can.png",
         imagePath: new URL(`./assets/items/bloated_tuna_can.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     blue_gate_communication_tower_key: {
         name: "Blue Gate Communication Tower Key",
@@ -400,7 +449,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/blue_gate_communication_tower_key.png",
         imagePath: new URL(`./assets/items/blue_gate_communication_tower_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     blue_gate_confiscation_room_key: {
         name: "Blue Gate Confiscation Room Key",
@@ -408,7 +458,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/blue_gate_confiscation_room_key.png",
         imagePath: new URL(`./assets/items/blue_gate_confiscation_room_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     blue_light_stick: {
         name: "Blue Light Stick",
@@ -416,7 +467,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/blue_light_stick.png",
         imagePath: new URL(`./assets/items/blue_light_stick.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     blue_light_stick_blueprint: {
         name: "Blue Light Stick Blueprint",
@@ -424,7 +476,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/blue_light_stick_blueprint.png",
         imagePath: new URL(`./assets/items/blue_light_stick_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     blue_radio_renegade_color: {
         name: "Blue (Radio Renegade Color)",
@@ -432,7 +485,53 @@ export const Items = {
         category: Category.Cosmetic,
         rawImagePath: "arcraiders-data/images/items/blue_radio_renegade_color.png",
         imagePath: new URL(`./assets/items/blue_radio_renegade_color.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
+    } as Item,
+    bobcat_blueprint: {
+        name: "Bobcat Blueprint",
+        rarity: Rarity.Epic,
+        category: Category.Blueprint,
+        rawImagePath: "arcraiders-data/images/items/bobcat.png",
+        imagePath: new URL(`./assets/items/bobcat_blueprint.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    bobcat_i: {
+        name: "Bobcat I",
+        rarity: Rarity.Epic,
+        category: Category.SMG,
+        rawImagePath: "arcraiders-data/images/items/bobcat.png",
+        imagePath: new URL(`./assets/items/bobcat_i.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    bobcat_ii: {
+        name: "Bobcat II",
+        rarity: Rarity.Epic,
+        category: Category.SMG,
+        rawImagePath: "arcraiders-data/images/items/bobcat.png",
+        imagePath: new URL(`./assets/items/bobcat_ii.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    bobcat_iii: {
+        name: "Bobcat III",
+        rarity: Rarity.Epic,
+        category: Category.SMG,
+        rawImagePath: "arcraiders-data/images/items/bobcat.png",
+        imagePath: new URL(`./assets/items/bobcat_iii.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    bobcat_iv: {
+        name: "Bobcat IV",
+        rarity: Rarity.Epic,
+        category: Category.SMG,
+        rawImagePath: "arcraiders-data/images/items/bobcat.png",
+        imagePath: new URL(`./assets/items/bobcat_iv.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     bombardier_cell: {
         name: "Bombardier Cell",
@@ -440,7 +539,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/bombardier_cell.png",
         imagePath: new URL(`./assets/items/bombardier_cell.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     breathtaking_snow_globe: {
         name: "Breathtaking Snow Globe",
@@ -448,7 +548,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/breathtaking_snow_globe.png",
         imagePath: new URL(`./assets/items/breathtaking_snow_globe.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     broken_flashlight: {
         name: "Broken Flashlight",
@@ -456,7 +557,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/broken_flashlight.png",
         imagePath: new URL(`./assets/items/broken_flashlight.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     broken_guidance_system: {
         name: "Broken Guidance System",
@@ -464,7 +566,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/broken_guidance_system.png",
         imagePath: new URL(`./assets/items/broken_guidance_system.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     broken_handheld_radio: {
         name: "Broken Handheld Radio",
@@ -472,7 +575,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/broken_handheld_radio.png",
         imagePath: new URL(`./assets/items/broken_handheld_radio.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     broken_taser: {
         name: "Broken Taser",
@@ -480,7 +584,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/broken_taser.png",
         imagePath: new URL(`./assets/items/broken_taser.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     burgerboy: {
         name: "Burgerboy",
@@ -488,7 +593,8 @@ export const Items = {
         category: Category.BackpackCharm,
         rawImagePath: "arcraiders-data/images/items/burgerboy.png",
         imagePath: new URL(`./assets/items/burgerboy.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     buried_city_residential_master_key: {
         name: "Buried City Residential Master Key",
@@ -496,7 +602,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/buried_city_residential_master_key.png",
         imagePath: new URL(`./assets/items/buried_city_residential_master_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     buried_city_town_hall_key: {
         name: "Buried City Town Hall Key",
@@ -504,7 +611,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/buried_city_town_hall_key.png",
         imagePath: new URL(`./assets/items/buried_city_town_hall_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burletta_blueprint: {
         name: "Burletta Blueprint",
@@ -512,7 +620,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/burletta.png",
         imagePath: new URL(`./assets/items/burletta_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burletta_i: {
         name: "Burletta I",
@@ -520,31 +629,35 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/burletta.png",
         imagePath: new URL(`./assets/items/burletta_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burletta_ii: {
         name: "Burletta II",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/burletta.png",
         imagePath: new URL(`./assets/items/burletta_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burletta_iii: {
         name: "Burletta III",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/burletta.png",
         imagePath: new URL(`./assets/items/burletta_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burletta_iv: {
         name: "Burletta IV",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/burletta.png",
         imagePath: new URL(`./assets/items/burletta_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     burned_arc_circuit: {
         name: "Burned Arc Circuit",
@@ -552,7 +665,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/burned_arc_circuit.png",
         imagePath: new URL(`./assets/items/burned_arc_circuit.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     burned_arc_circuitry: {
         name: "Burned Arc Circuitry",
@@ -560,7 +674,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/burned_arc_circuitry.png",
         imagePath: new URL(`./assets/items/burned_arc_circuitry.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     camera_lens: {
         name: "Camera Lens",
@@ -568,7 +683,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/camera_lens.png",
         imagePath: new URL(`./assets/items/camera_lens.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     candle_holder: {
         name: "Candle Holder",
@@ -576,7 +692,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/candle_holder.png",
         imagePath: new URL(`./assets/items/candle_holder.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     canister: {
         name: "Canister",
@@ -584,7 +701,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/canister.png",
         imagePath: new URL(`./assets/items/canister.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     cans_backpack_attachment: {
         name: "Cans Backpack Attachment",
@@ -592,7 +710,8 @@ export const Items = {
         category: Category.Cosmetic,
         rawImagePath: "arcraiders-data/images/items/cans.png",
         imagePath: new URL(`./assets/items/cans_backpack_attachment.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     cat_bed: {
         name: "Cat Bed",
@@ -600,7 +719,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/cat_bed.png",
         imagePath: new URL(`./assets/items/cat_bed.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     celestes_journal: {
         name: "Celeste's Journal",
@@ -608,7 +728,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/celestes_journal.png",
         imagePath: new URL(`./assets/items/celestes_journal.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     celeste_journal: {
         name: "Celeste's Journal",
@@ -616,7 +737,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/celestes_journal.png",
         imagePath: new URL(`./assets/items/celeste_journal.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     cheer: {
         name: "Cheer",
@@ -624,7 +746,8 @@ export const Items = {
         category: Category.Cosmetic,
         rawImagePath: "arcraiders-data/images/items/cheer.png",
         imagePath: new URL(`./assets/items/cheer.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     chemicals: {
         name: "Chemicals",
@@ -632,7 +755,8 @@ export const Items = {
         category: Category.Basic,
         rawImagePath: "arcraiders-data/images/items/chemicals.png",
         imagePath: new URL(`./assets/items/chemicals.jpg`, import.meta.url).href,
-        stackSize: 50
+        stackSize: 50,
+        craftedQuantity: 1,
     } as Item,
     coffee_pot: {
         name: "Coffee Pot",
@@ -640,7 +764,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/coffee_pot.png",
         imagePath: new URL(`./assets/items/coffee_pot.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     combat_mk1: {
         name: "Combat Mk. 1",
@@ -648,7 +773,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/combat_i.png",
         imagePath: new URL(`./assets/items/combat_mk1.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     combat_mk2: {
         name: "Combat Mk. 2",
@@ -656,7 +782,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/combat_i.png",
         imagePath: new URL(`./assets/items/combat_mk2.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     combat_mk3_aggressive: {
         name: "Combat Mk. 3 (Aggressive)",
@@ -664,7 +791,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/combat_mk3_aggressive.png",
         imagePath: new URL(`./assets/items/combat_mk3_aggressive.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     combat_mk3_aggressive_blueprint: {
         name: "Combat Mk. 3 (Aggressive) Blueprint",
@@ -672,7 +800,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/combat_mk3_aggressive.png",
         imagePath: new URL(`./assets/items/combat_mk3_aggressive_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     compensator_i: {
         name: "Compensator I",
@@ -680,7 +809,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/compensator_i.png",
         imagePath: new URL(`./assets/items/compensator_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     compensator_ii: {
         name: "Compensator II",
@@ -688,7 +818,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/compensator_ii.png",
         imagePath: new URL(`./assets/items/compensator_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     compensator_iii: {
         name: "Compensator III",
@@ -696,7 +827,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/compensator_ii.png",
         imagePath: new URL(`./assets/items/compensator_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     compensator_ii_blueprint: {
         name: "Compensator II Blueprint",
@@ -704,7 +836,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/compensator_ii_blueprint.png",
         imagePath: new URL(`./assets/items/compensator_ii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     complex_gun_parts: {
         name: "Complex Gun Parts",
@@ -712,7 +845,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/complex_gun_parts.png",
         imagePath: new URL(`./assets/items/complex_gun_parts.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     complex_gun_parts_blueprint: {
         name: "Complex Gun Parts Blueprint",
@@ -720,7 +854,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/complex_gun_parts_blueprint.png",
         imagePath: new URL(`./assets/items/complex_gun_parts_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     coolant: {
         name: "Coolant",
@@ -728,7 +863,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/coolant.png",
         imagePath: new URL(`./assets/items/coolant.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     cooling_coil: {
         name: "Cooling Coil",
@@ -736,7 +872,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/cooling_coil.png",
         imagePath: new URL(`./assets/items/cooling_coil.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     cooling_fan: {
         name: "Cooling Fan",
@@ -744,7 +881,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/cooling_fan.png",
         imagePath: new URL(`./assets/items/cooling_fan.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     cracked_bioscanner: {
         name: "Cracked Bioscanner",
@@ -752,7 +890,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/cracked_bioscanner.png",
         imagePath: new URL(`./assets/items/cracked_bioscanner.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     crude_explosives: {
         name: "Crude Explosives",
@@ -760,7 +899,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/crude_explosives.png",
         imagePath: new URL(`./assets/items/crude_explosives.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     crumpled_plastic_bottle: {
         name: "Crumpled Plastic Bottle",
@@ -768,7 +908,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/crumpled_plastic_bottle.png",
         imagePath: new URL(`./assets/items/crumpled_plastic_bottle.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_arc_motion_core: {
         name: "Damaged ARC Motion Core",
@@ -776,7 +917,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_arc_motion_core.png",
         imagePath: new URL(`./assets/items/damaged_arc_motion_core.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     damaged_arc_powercell: {
         name: "Damaged ARC Powercell",
@@ -784,7 +926,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_arc_powercell.png",
         imagePath: new URL(`./assets/items/damaged_arc_powercell.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     damaged_fireball_burner: {
         name: "Damaged Fireball Burner",
@@ -792,7 +935,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_fireball_burner.png",
         imagePath: new URL(`./assets/items/damaged_fireball_burner.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_heat_sink: {
         name: "Damaged Heat Sink",
@@ -800,7 +944,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_heat_sink.png",
         imagePath: new URL(`./assets/items/damaged_heat_sink.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_hornet_driver: {
         name: "Damaged Hornet Driver",
@@ -808,7 +953,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_hornet_driver.png",
         imagePath: new URL(`./assets/items/damaged_hornet_driver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_rocketeer_driver: {
         name: "Damaged Rocketeer Driver",
@@ -816,7 +962,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_rocketeer_driver.png",
         imagePath: new URL(`./assets/items/damaged_rocketeer_driver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_tick_pod: {
         name: "Damaged Tick Pod",
@@ -824,7 +971,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_tick_pod.png",
         imagePath: new URL(`./assets/items/damaged_tick_pod.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_wasp_drive: {
         name: "Damaged Wasp Drive",
@@ -832,7 +980,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_wasp_drive.png",
         imagePath: new URL(`./assets/items/damaged_wasp_drive.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     damaged_wasp_driver: {
         name: "Damaged Wasp Driver",
@@ -840,7 +989,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/damaged_wasp_driver.png",
         imagePath: new URL(`./assets/items/damaged_wasp_driver.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     dam_control_tower_key: {
         name: "Dam Control Tower Key",
@@ -848,7 +998,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/dam_control_tower_key.png",
         imagePath: new URL(`./assets/items/dam_control_tower_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     dam_staff_room_key: {
         name: "Dam Staff Room Key",
@@ -856,7 +1007,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/dam_staff_room_key.png",
         imagePath: new URL(`./assets/items/dam_staff_room_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     dam_surveillance_key: {
         name: "Dam Surveillance Key",
@@ -864,7 +1016,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/dam_surveillance_key.png",
         imagePath: new URL(`./assets/items/dam_surveillance_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     dam_testing_annex_key: {
         name: "Dam Testing Annex Key",
@@ -872,7 +1025,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/dam_testing_annex_key.png",
         imagePath: new URL(`./assets/items/dam_testing_annex_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     dam_utility_key: {
         name: "Dam Utility Key",
@@ -880,7 +1034,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/dam_utility_key.png",
         imagePath: new URL(`./assets/items/dam_utility_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     dart_board: {
         name: "Dart Board",
@@ -888,7 +1043,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/dart_board.png",
         imagePath: new URL(`./assets/items/dart_board.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     deadline: {
         name: "Deadline",
@@ -896,7 +1052,17 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/deadline.png",
         imagePath: new URL(`./assets/items/deadline.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    deadline_blueprint: {
+        name: "Deadline Blueprint",
+        rarity: Rarity.Legendary,
+        category: Category.Blueprint,
+        rawImagePath: "arcraiders-data/images/items/deadline.png",
+        imagePath: new URL(`./assets/items/deadline_blueprint.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     defibrillator: {
         name: "Defibrillator",
@@ -904,7 +1070,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/defibrillator.png",
         imagePath: new URL(`./assets/items/defibrillator.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     defibrillator_blueprint: {
         name: "Defibrillator Blueprint",
@@ -912,7 +1079,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/defibrillator.png",
         imagePath: new URL(`./assets/items/defibrillator_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     deflated_football: {
         name: "Deflated Football",
@@ -920,7 +1088,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/deflated_football.png",
         imagePath: new URL(`./assets/items/deflated_football.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     degraded_arc_rubber: {
         name: "Degraded ARC Rubber",
@@ -928,7 +1097,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/degraded_arc_rubber.png",
         imagePath: new URL(`./assets/items/degraded_arc_rubber.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     diving_goggles: {
         name: "Diving Goggles",
@@ -936,7 +1106,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/diving_goggles.png",
         imagePath: new URL(`./assets/items/diving_goggles.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     dog_collar: {
         name: "Dog Collar",
@@ -944,7 +1115,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/dog_collar.png",
         imagePath: new URL(`./assets/items/dog_collar.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     door_blocker: {
         name: "Door Blocker",
@@ -952,7 +1124,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/door_blocker.png",
         imagePath: new URL(`./assets/items/door_blocker.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     dried_out_arc_resin: {
         name: "Dried-Out ARC Resin",
@@ -960,7 +1133,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/dried_out_arc_resin.png",
         imagePath: new URL(`./assets/items/dried_out_arc_resin.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     duct_tape: {
         name: "Duct Tape",
@@ -968,7 +1142,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/duct_tape.png",
         imagePath: new URL(`./assets/items/duct_tape.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     durable_cloth: {
         name: "Durable Cloth",
@@ -976,7 +1151,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/durable_cloth.png",
         imagePath: new URL(`./assets/items/durable_cloth.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     electrical_components: {
         name: "Electrical Components",
@@ -984,7 +1160,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/electrical_components.png",
         imagePath: new URL(`./assets/items/electrical_components.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     empty_wine_bottle: {
         name: "Empty Wine Bottle",
@@ -992,7 +1169,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/empty_wine_bottle.png",
         imagePath: new URL(`./assets/items/empty_wine_bottle.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     energy_clip: {
         name: "Energy Clip",
@@ -1000,7 +1178,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/energy_clip.png",
         imagePath: new URL(`./assets/items/energy_clip.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     equalizer: {
         name: "Equalizer",
@@ -1008,7 +1187,8 @@ export const Items = {
         category: Category.LMG,
         rawImagePath: "arcraiders-data/images/items/equalizer.png",
         imagePath: new URL(`./assets/items/equalizer.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     equalizer_blueprint: {
         name: "Equalizer Blueprint",
@@ -1016,7 +1196,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/equalizer.png",
         imagePath: new URL(`./assets/items/equalizer_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     esr_analyzer: {
         name: "ESR Analyzer",
@@ -1024,7 +1205,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/esr_analyzer.png",
         imagePath: new URL(`./assets/items/esr_analyzer.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     exodus_modules: {
         name: "Exodus Modules",
@@ -1032,7 +1214,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/exodus_modules.png",
         imagePath: new URL(`./assets/items/exodus_modules.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     experimental_seed_sample: {
         name: "Experimental Seed Sample",
@@ -1040,7 +1223,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/experimental_seed_sample.png",
         imagePath: new URL(`./assets/items/experimental_seed_sample.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     expired_pasta: {
         name: "Expired Pasta",
@@ -1048,7 +1232,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/expired_pasta.png",
         imagePath: new URL(`./assets/items/expired_pasta.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     expired_respirator: {
         name: "Expired Respirator",
@@ -1056,7 +1241,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/expired_respirator.png",
         imagePath: new URL(`./assets/items/expired_respirator.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     explosive_compound: {
         name: "Explosive Compound",
@@ -1064,7 +1250,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/explosive_compound.png",
         imagePath: new URL(`./assets/items/explosive_compound.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     extended_barrel: {
         name: "Extended Barrel",
@@ -1072,7 +1259,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_barrel.png",
         imagePath: new URL(`./assets/items/extended_barrel.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_light_mag_i: {
         name: "Extended Light Mag I",
@@ -1080,7 +1268,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_light_mag_i.png",
         imagePath: new URL(`./assets/items/extended_light_mag_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_light_mag_ii: {
         name: "Extended Light Mag II",
@@ -1088,7 +1277,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_light_mag_ii.png",
         imagePath: new URL(`./assets/items/extended_light_mag_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_light_mag_iii: {
         name: "Extended Light Mag III",
@@ -1096,7 +1286,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_light_mag_iii.png",
         imagePath: new URL(`./assets/items/extended_light_mag_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_medium_mag_i: {
         name: "Extended Medium Mag I",
@@ -1104,7 +1295,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_medium_mag_i.png",
         imagePath: new URL(`./assets/items/extended_medium_mag_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_medium_mag_ii: {
         name: "Extended Medium Mag II",
@@ -1112,7 +1304,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_medium_mag_ii.png",
         imagePath: new URL(`./assets/items/extended_medium_mag_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_medium_mag_iii: {
         name: "Extended Medium Mag III",
@@ -1120,7 +1313,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_medium_mag_iii.png",
         imagePath: new URL(`./assets/items/extended_medium_mag_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_medium_mag_iii_blueprint: {
         name: "Extended Medium Mag III Blueprint",
@@ -1128,7 +1322,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/extended_medium_mag_iii.png",
         imagePath: new URL(`./assets/items/extended_medium_mag_iii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_medium_mag_ii_blueprint: {
         name: "Extended Medium Mag II Blueprint",
@@ -1136,7 +1331,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/extended_medium_mag_ii_blueprint.png",
         imagePath: new URL(`./assets/items/extended_medium_mag_ii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_shotgun_mag_i: {
         name: "Extended Shotgun Mag I",
@@ -1144,7 +1340,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_shotgun_mag_i.png",
         imagePath: new URL(`./assets/items/extended_shotgun_mag_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_shotgun_mag_ii: {
         name: "Extended Shotgun Mag II",
@@ -1152,7 +1349,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_shotgun_mag_ii.png",
         imagePath: new URL(`./assets/items/extended_shotgun_mag_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_shotgun_mag_iii: {
         name: "Extended Shotgun Mag III",
@@ -1160,7 +1358,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/extended_shotgun_mag_iii.png",
         imagePath: new URL(`./assets/items/extended_shotgun_mag_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_shotgun_mag_iii_blueprint: {
         name: "Extended Shotgun Mag III Blueprint",
@@ -1168,7 +1367,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/extended_shotgun_mag_iii.png",
         imagePath: new URL(`./assets/items/extended_shotgun_mag_iii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     extended_shotgun_mag_ii_blueprint: {
         name: "Extended Shotgun Mag II Blueprint",
@@ -1176,7 +1376,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/extended_shotgun_mag_ii.png",
         imagePath: new URL(`./assets/items/extended_shotgun_mag_ii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     fabric: {
         name: "Fabric",
@@ -1184,7 +1385,8 @@ export const Items = {
         category: Category.Basic,
         rawImagePath: "arcraiders-data/images/items/fabric.png",
         imagePath: new URL(`./assets/items/fabric.jpg`, import.meta.url).href,
-        stackSize: 50
+        stackSize: 50,
+        craftedQuantity: 1,
     } as Item,
     faded_photograph: {
         name: "Faded Photograph",
@@ -1192,7 +1394,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/faded_photograph.png",
         imagePath: new URL(`./assets/items/faded_photograph.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     ferro_i: {
         name: "Ferro I",
@@ -1200,7 +1403,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/ferro.png",
         imagePath: new URL(`./assets/items/ferro_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     ferro_ii: {
         name: "Ferro II",
@@ -1208,15 +1412,17 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/ferro.png",
         imagePath: new URL(`./assets/items/ferro_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     ferro_iii: {
         name: "Ferro III",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/ferro.png",
         imagePath: new URL(`./assets/items/ferro_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     ferro_iv: {
         name: "Ferro IV",
@@ -1224,7 +1430,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/ferro.png",
         imagePath: new URL(`./assets/items/ferro_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     fertilizer: {
         name: "Fertilizer",
@@ -1232,7 +1439,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/fertilizer.png",
         imagePath: new URL(`./assets/items/fertilizer.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     film_reel: {
         name: "Film Reel",
@@ -1240,7 +1448,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/film_reel.png",
         imagePath: new URL(`./assets/items/film_reel.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     fine_wristwatch: {
         name: "Fine Wristwatch",
@@ -1248,7 +1457,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/fine_wristwatch.png",
         imagePath: new URL(`./assets/items/fine_wristwatch.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     fireball_burner: {
         name: "Fireball Burner",
@@ -1256,7 +1466,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/fireball_burner.png",
         imagePath: new URL(`./assets/items/fireball_burner.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     first_wave_compass: {
         name: "First Wave Compass",
@@ -1264,7 +1475,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/first_wave_compass.png",
         imagePath: new URL(`./assets/items/first_wave_compass.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     first_wave_rations: {
         name: "First Wave Rations",
@@ -1272,7 +1484,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/first_wave_rations.png",
         imagePath: new URL(`./assets/items/first_wave_rations.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     first_wave_tape: {
         name: "First Wave Tape",
@@ -1280,15 +1493,17 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/first_wave_tape.png",
         imagePath: new URL(`./assets/items/first_wave_tape.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     flame_spray: {
         name: "Flame Spray",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/flame_spray.png",
         imagePath: new URL(`./assets/items/flame_spray.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     flow_controller: {
         name: "Flow Controller",
@@ -1296,7 +1511,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/flow_controller.png",
         imagePath: new URL(`./assets/items/flow_controller.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     free_loadout_augment: {
         name: "Free Loadout Augment",
@@ -1304,7 +1520,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/free_loadout_augment.png",
         imagePath: new URL(`./assets/items/free_loadout_augment.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     frequency_modulation_box: {
         name: "Frequency Modulation Box",
@@ -1312,7 +1529,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/frequency_modulation_box.png",
         imagePath: new URL(`./assets/items/frequency_modulation_box.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     fried_motherboard: {
         name: "Fried Motherboard",
@@ -1320,7 +1538,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/fried_motherboard.png",
         imagePath: new URL(`./assets/items/fried_motherboard.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     fruit_mix: {
         name: "Fruit Mix",
@@ -1328,7 +1547,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/fruit_mix.png",
         imagePath: new URL(`./assets/items/fruit_mix.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     frying_pan: {
         name: "Frying Pan",
@@ -1336,7 +1556,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/frying_pan.png",
         imagePath: new URL(`./assets/items/frying_pan.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     garlic_press: {
         name: "Garlic Press",
@@ -1344,7 +1565,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/garlic_press.png",
         imagePath: new URL(`./assets/items/garlic_press.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     gas_grenade: {
         name: "Gas Grenade",
@@ -1352,7 +1574,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/gas_grenade.png",
         imagePath: new URL(`./assets/items/gas_grenade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     gas_grenade_trap: {
         name: "Gas Grenade Trap",
@@ -1360,7 +1583,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/gas_grenade_trap.png",
         imagePath: new URL(`./assets/items/gas_grenade_trap.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     gas_mine: {
         name: "Gas Mine",
@@ -1368,7 +1592,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/gas_mine.png",
         imagePath: new URL(`./assets/items/gas_mine.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     geiger_counter: {
         name: "Geiger Counter",
@@ -1376,7 +1601,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/geiger_counter.png",
         imagePath: new URL(`./assets/items/geiger_counter.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     great_mullein: {
         name: "Great Mullein",
@@ -1384,7 +1610,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/great_mullein.png",
         imagePath: new URL(`./assets/items/great_mullein.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     green_light_stick: {
         name: "Green Light Stick",
@@ -1392,7 +1619,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/green_light_stick.png",
         imagePath: new URL(`./assets/items/green_light_stick.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     green_light_stick_blueprint: {
         name: "Green Light Stick Blueprint",
@@ -1400,7 +1628,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/green_light_stick.png",
         imagePath: new URL(`./assets/items/green_light_stick_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hairpin_i: {
         name: "Hairpin I",
@@ -1408,7 +1637,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/hairpin_i.png",
         imagePath: new URL(`./assets/items/hairpin_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hairpin_ii: {
         name: "Hairpin II",
@@ -1416,7 +1646,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/hairpin_i.png",
         imagePath: new URL(`./assets/items/hairpin_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hairpin_iii: {
         name: "Hairpin III",
@@ -1424,7 +1655,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/hairpin_i.png",
         imagePath: new URL(`./assets/items/hairpin_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hairpin_iv: {
         name: "Hairpin IV",
@@ -1432,7 +1664,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/hairpin_i.png",
         imagePath: new URL(`./assets/items/hairpin_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     headphones: {
         name: "Headphones",
@@ -1440,7 +1673,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/headphones.png",
         imagePath: new URL(`./assets/items/headphones.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     heavy_ammo: {
         name: "Heavy Ammo",
@@ -1448,7 +1682,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/heavy_ammo.png",
         imagePath: new URL(`./assets/items/heavy_ammo.jpg`, import.meta.url).href,
-        stackSize: 40
+        stackSize: 40,
+        craftedQuantity: 10,
     } as Item,
     heavy_fuze_grenade: {
         name: "Heavy Fuze Grenade",
@@ -1456,7 +1691,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/heavy_fuze_grenade.png",
         imagePath: new URL(`./assets/items/heavy_fuze_grenade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     heavy_gun_parts: {
         name: "Heavy Gun Parts",
@@ -1464,7 +1700,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/heavy_gun_parts.png",
         imagePath: new URL(`./assets/items/heavy_gun_parts.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     heavy_gun_parts_blueprint: {
         name: "Heavy Gun Parts Blueprint",
@@ -1472,7 +1709,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/heavy_gun_parts.png",
         imagePath: new URL(`./assets/items/heavy_gun_parts_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     heavy_shield: {
         name: "Heavy Shield",
@@ -1480,7 +1718,8 @@ export const Items = {
         category: Category.Shield,
         rawImagePath: "arcraiders-data/images/items/heavy_shield.png",
         imagePath: new URL(`./assets/items/heavy_shield.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     herbal_bandage: {
         name: "Herbal Bandage",
@@ -1488,7 +1727,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/herbal_bandage.png",
         imagePath: new URL(`./assets/items/herbal_bandage.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     horizontal_grip: {
         name: "Horizontal Grip",
@@ -1496,7 +1736,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/horizontal_grip.png",
         imagePath: new URL(`./assets/items/horizontal_grip.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     horizontal_grip_blueprint: {
         name: "Horizontal Grip Blueprint",
@@ -1504,7 +1745,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/horizontal_grip.png",
         imagePath: new URL(`./assets/items/horizontal_grip_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hornet_driver: {
         name: "Hornet Driver",
@@ -1512,7 +1754,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/hornet_driver.png",
         imagePath: new URL(`./assets/items/hornet_driver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     household_cleaner: {
         name: "Household Cleaner",
@@ -1520,7 +1763,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/household_cleaner.png",
         imagePath: new URL(`./assets/items/household_cleaner.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     hullcracker_blueprint: {
         name: "Hullcracker Blueprint",
@@ -1528,7 +1772,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/hullcracker_blueprint.png",
         imagePath: new URL(`./assets/items/hullcracker_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hullcracker_i: {
         name: "Hullcracker I",
@@ -1536,7 +1781,8 @@ export const Items = {
         category: Category.Special,
         rawImagePath: "arcraiders-data/images/items/hullcracker.png",
         imagePath: new URL(`./assets/items/hullcracker_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hullcracker_ii: {
         name: "Hullcracker II",
@@ -1544,7 +1790,8 @@ export const Items = {
         category: Category.Special,
         rawImagePath: "arcraiders-data/images/items/hullcracker.png",
         imagePath: new URL(`./assets/items/hullcracker_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hullcracker_iii: {
         name: "Hullcracker III",
@@ -1552,7 +1799,8 @@ export const Items = {
         category: Category.Special,
         rawImagePath: "arcraiders-data/images/items/hullcracker.png",
         imagePath: new URL(`./assets/items/hullcracker_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     hullcracker_iv: {
         name: "Hullcracker IV",
@@ -1560,7 +1808,8 @@ export const Items = {
         category: Category.Special,
         rawImagePath: "arcraiders-data/images/items/hullcracker.png",
         imagePath: new URL(`./assets/items/hullcracker_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     humidifier: {
         name: "Humidifier",
@@ -1568,7 +1817,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/humidifier.png",
         imagePath: new URL(`./assets/items/humidifier.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     ice_cream_scooper: {
         name: "Ice Cream Scooper",
@@ -1576,7 +1826,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ice_cream_scooper.png",
         imagePath: new URL(`./assets/items/ice_cream_scooper.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     il_toro_blueprint: {
         name: "Il Toro Blueprint",
@@ -1584,7 +1835,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/il_toro.png",
         imagePath: new URL(`./assets/items/il_toro_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     il_toro_i: {
         name: "Il Toro I",
@@ -1592,7 +1844,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/il_toro.png",
         imagePath: new URL(`./assets/items/il_toro_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     il_toro_ii: {
         name: "Il Toro II",
@@ -1600,7 +1853,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/il_toro.png",
         imagePath: new URL(`./assets/items/il_toro_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     il_toro_iii: {
         name: "Il Toro III",
@@ -1608,7 +1862,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/il_toro.png",
         imagePath: new URL(`./assets/items/il_toro_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     il_toro_iv: {
         name: "Il Toro IV",
@@ -1616,7 +1871,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/il_toro.png",
         imagePath: new URL(`./assets/items/il_toro_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     impure_arc_coolant: {
         name: "Impure ARC Coolant",
@@ -1624,7 +1880,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/impure_arc_coolant.png",
         imagePath: new URL(`./assets/items/impure_arc_coolant.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     industrial_battery: {
         name: "Industrial Battery",
@@ -1632,7 +1889,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/industrial_battery.png",
         imagePath: new URL(`./assets/items/industrial_battery.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     industrial_charger: {
         name: "Industrial Charger",
@@ -1640,7 +1898,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/industrial_charger.png",
         imagePath: new URL(`./assets/items/industrial_charger.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     industrial_magnet: {
         name: "Industrial Magnet",
@@ -1648,7 +1907,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/industrial_magnet.png",
         imagePath: new URL(`./assets/items/industrial_magnet.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     ion_sputter: {
         name: "Ion Sputter",
@@ -1656,7 +1916,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ion_sputter.png",
         imagePath: new URL(`./assets/items/ion_sputter.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     jolt_mine: {
         name: "Jolt Mine",
@@ -1664,7 +1925,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/jolt_mine.png",
         imagePath: new URL(`./assets/items/jolt_mine.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     jolt_mine_blueprint: {
         name: "Jolt Mine Blueprint",
@@ -1672,7 +1934,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/jolt_mine.png",
         imagePath: new URL(`./assets/items/jolt_mine_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     jupiter: {
         name: "Jupiter",
@@ -1680,7 +1943,8 @@ export const Items = {
         category: Category.SniperRifle,
         rawImagePath: "arcraiders-data/images/items/jupiter.png",
         imagePath: new URL(`./assets/items/jupiter.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     jupiter_blueprint: {
         name: "Jupiter Blueprint",
@@ -1688,7 +1952,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/jupiter.png",
         imagePath: new URL(`./assets/items/jupiter_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     kettle_i: {
         name: "Kettle I",
@@ -1696,31 +1961,35 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/kettle.png",
         imagePath: new URL(`./assets/items/kettle_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     kettle_ii: {
         name: "Kettle II",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/kettle.png",
         imagePath: new URL(`./assets/items/kettle_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     kettle_iii: {
         name: "Kettle III",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/kettle.png",
         imagePath: new URL(`./assets/items/kettle_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     kettle_iv: {
         name: "Kettle IV",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/kettle.png",
         imagePath: new URL(`./assets/items/kettle_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     kinetic_converter: {
         name: "Kinetic Converter",
@@ -1728,7 +1997,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/kinetic_converter.png",
         imagePath: new URL(`./assets/items/kinetic_converter.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     laboratory_reagents: {
         name: "Laboratory Reagents",
@@ -1736,7 +2006,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/laboratory_reagents.png",
         imagePath: new URL(`./assets/items/laboratory_reagents.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     lances_mixtape_5th_edition: {
         name: "Lance's Mixtape (5th Edition)",
@@ -1744,7 +2015,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/lances_mixtape_5th_edition.png",
         imagePath: new URL(`./assets/items/lances_mixtape_5th_edition.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     launcher_ammo: {
         name: "Launcher Ammo",
@@ -1752,7 +2024,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/launcher_ammo.png",
         imagePath: new URL(`./assets/items/launcher_ammo.jpg`, import.meta.url).href,
-        stackSize: 24
+        stackSize: 24,
+        craftedQuantity: 6,
     } as Item,
     launcher_ammo_blueprint: {
         name: "Launcher Ammo (Hullcracker) Blueprint",
@@ -1760,7 +2033,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/launcher_ammo_blueprint.png",
         imagePath: new URL(`./assets/items/launcher_ammo_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     leaper_pulse_unit: {
         name: "Leaper Pulse Unit",
@@ -1768,7 +2042,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/leaper_pulse_unit.png",
         imagePath: new URL(`./assets/items/leaper_pulse_unit.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     lemon: {
         name: "Lemon",
@@ -1776,7 +2051,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/lemon.png",
         imagePath: new URL(`./assets/items/lemon.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     lidar_scanner: {
         name: "Lidar Scanner",
@@ -1784,7 +2060,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/lidar_scanner.png",
         imagePath: new URL(`./assets/items/lidar_scanner.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     lightweight_stock: {
         name: "Lightweight Stock",
@@ -1792,7 +2069,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/lightweight_stock.png",
         imagePath: new URL(`./assets/items/lightweight_stock.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     lightweight_stock_blueprint: {
         name: "Lightweight Stock Blueprint",
@@ -1800,7 +2078,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/lightweight_stock_blueprint.png",
         imagePath: new URL(`./assets/items/lightweight_stock_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     light_ammo: {
         name: "Light Ammo",
@@ -1808,7 +2087,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/light_ammo.png",
         imagePath: new URL(`./assets/items/light_ammo.jpg`, import.meta.url).href,
-        stackSize: 100
+        stackSize: 100,
+        craftedQuantity: 25,
     } as Item,
     light_bulb: {
         name: "Light Bulb",
@@ -1816,7 +2096,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/light_bulb.png",
         imagePath: new URL(`./assets/items/light_bulb.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     light_gun_parts: {
         name: "Light Gun Parts",
@@ -1824,7 +2105,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/light_gun_parts.png",
         imagePath: new URL(`./assets/items/light_gun_parts.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     light_gun_parts_blueprint: {
         name: "Light Gun Parts Blueprint",
@@ -1832,7 +2114,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/light_gun_parts_blueprint.png",
         imagePath: new URL(`./assets/items/light_gun_parts_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     light_impact_grenade: {
         name: "Light Impact Grenade",
@@ -1840,7 +2123,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/light_impact_grenade.png",
         imagePath: new URL(`./assets/items/light_impact_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     light_shield: {
         name: "Light Shield",
@@ -1848,7 +2132,8 @@ export const Items = {
         category: Category.Shield,
         rawImagePath: "arcraiders-data/images/items/light_shield.png",
         imagePath: new URL(`./assets/items/light_shield.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     lil_smoke_grenade: {
         name: "Li'l Smoke Grenade",
@@ -1856,7 +2141,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/lil_smoke_grenade.png",
         imagePath: new URL(`./assets/items/lil_smoke_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     li_l_smoke_grenade: {
         name: "Li'l Smoke Grenade",
@@ -1864,7 +2150,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/li_l_smoke_grenade.png",
         imagePath: new URL(`./assets/items/li_l_smoke_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     looting_mk1: {
         name: "Looting Mk. 1",
@@ -1872,7 +2159,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/looting_mk1.png",
         imagePath: new URL(`./assets/items/looting_mk1.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     looting_mk2: {
         name: "Looting Mk. 2",
@@ -1880,7 +2168,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/looting_mk2.png",
         imagePath: new URL(`./assets/items/looting_mk2.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     looting_mk3_cautious: {
         name: "Looting Mk. 3 (Cautious)",
@@ -1888,7 +2177,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/looting_mk3_cautious.png",
         imagePath: new URL(`./assets/items/looting_mk3_cautious.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     looting_mk3_survivor: {
         name: "Looting Mk. 3 (Survivor)",
@@ -1896,7 +2186,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/looting_mk3_survivor.png",
         imagePath: new URL(`./assets/items/looting_mk3_survivor.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     looting_mk3_survivor_blueprint: {
         name: "Looting Mk. 3 (Survivor) Blueprint",
@@ -1904,7 +2195,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/looting_mk3_survivor_blueprint.png",
         imagePath: new URL(`./assets/items/looting_mk3_survivor_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     lure_grenade: {
         name: "Lure Grenade",
@@ -1912,7 +2204,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/lure_grenade.png",
         imagePath: new URL(`./assets/items/lure_grenade.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     lure_grenade_blueprint: {
         name: "Lure Grenade Blueprint",
@@ -1920,7 +2213,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/lure_grenade.png",
         imagePath: new URL(`./assets/items/lure_grenade_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     lure_grenade_trap: {
         name: "Lure Grenade Trap",
@@ -1928,7 +2222,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/lure_grenade_trap.png",
         imagePath: new URL(`./assets/items/lure_grenade_trap.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     magnet: {
         name: "Magnet",
@@ -1936,7 +2231,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/magnet.png",
         imagePath: new URL(`./assets/items/magnet.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     magnetic_accelerator: {
         name: "Magnetic Accelerator",
@@ -1944,7 +2240,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/magnetic_accelerator.png",
         imagePath: new URL(`./assets/items/magnetic_accelerator.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     magnetron: {
         name: "Magnetron",
@@ -1952,7 +2249,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/magnetron.png",
         imagePath: new URL(`./assets/items/magnetron.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     major_aivas_patch: {
         name: "Major Aiva's Patch",
@@ -1960,7 +2258,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/major_aivas_patch.png",
         imagePath: new URL(`./assets/items/major_aivas_patch.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     matriarch_reactor: {
         name: "Matriarch Reactor",
@@ -1968,7 +2267,8 @@ export const Items = {
         category: Category.Material,
         rawImagePath: "arcraiders-data/images/items/matriarch_reactor.png",
         imagePath: new URL(`./assets/items/matriarch_reactor.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     mechanical_components: {
         name: "Mechanical Components",
@@ -1976,7 +2276,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/mechanical_components.png",
         imagePath: new URL(`./assets/items/mechanical_components.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     medium_ammo: {
         name: "Medium Ammo",
@@ -1984,7 +2285,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/medium_ammo.png",
         imagePath: new URL(`./assets/items/medium_ammo.jpg`, import.meta.url).href,
-        stackSize: 80
+        stackSize: 80,
+        craftedQuantity: 20,
     } as Item,
     medium_gun_parts: {
         name: "Medium Gun Parts",
@@ -1992,7 +2294,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/medium_gun_parts.png",
         imagePath: new URL(`./assets/items/medium_gun_parts.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     medium_gun_parts_blueprint: {
         name: "Medium Gun Parts Blueprint",
@@ -2000,7 +2303,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/medium_gun_parts_blueprint.png",
         imagePath: new URL(`./assets/items/medium_gun_parts_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     medium_shield: {
         name: "Medium Shield",
@@ -2008,7 +2312,8 @@ export const Items = {
         category: Category.Shield,
         rawImagePath: "arcraiders-data/images/items/medium_shield.png",
         imagePath: new URL(`./assets/items/medium_shield.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     metal_brackets: {
         name: "Metal Brackets",
@@ -2016,7 +2321,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/metal_brackets.png",
         imagePath: new URL(`./assets/items/metal_brackets.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     metal_parts: {
         name: "Metal Parts",
@@ -2024,7 +2330,8 @@ export const Items = {
         category: Category.Basic,
         rawImagePath: "arcraiders-data/images/items/metal_parts.png",
         imagePath: new URL(`./assets/items/metal_parts.jpg`, import.meta.url).href,
-        stackSize: 50
+        stackSize: 50,
+        craftedQuantity: 1,
     } as Item,
     microscope: {
         name: "Microscope",
@@ -2032,7 +2339,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/microscope.png",
         imagePath: new URL(`./assets/items/microscope.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     mini_centrifuge: {
         name: "Mini Centrifuge",
@@ -2040,7 +2348,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/mini_centrifuge.png",
         imagePath: new URL(`./assets/items/mini_centrifuge.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     mod_components: {
         name: "Mod Components",
@@ -2048,7 +2357,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/mod_components.png",
         imagePath: new URL(`./assets/items/mod_components.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     moss: {
         name: "Moss",
@@ -2056,7 +2366,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/moss.png",
         imagePath: new URL(`./assets/items/moss.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     motor: {
         name: "Motor",
@@ -2064,7 +2375,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/motor.png",
         imagePath: new URL(`./assets/items/motor.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     mushroom: {
         name: "Mushroom",
@@ -2072,7 +2384,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/mushroom.png",
         imagePath: new URL(`./assets/items/mushroom.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     music_album: {
         name: "Music Album",
@@ -2080,7 +2393,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/music_album.png",
         imagePath: new URL(`./assets/items/music_album.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     muzzle_brake_i: {
         name: "Muzzle Brake I",
@@ -2088,7 +2402,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/muzzle_brake_i.png",
         imagePath: new URL(`./assets/items/muzzle_brake_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     muzzle_brake_ii: {
         name: "Muzzle Brake II",
@@ -2096,7 +2411,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/muzzle_brake_ii.png",
         imagePath: new URL(`./assets/items/muzzle_brake_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     muzzle_brake_iii: {
         name: "Muzzle Brake III",
@@ -2104,7 +2420,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/muzzle_brake_iii.png",
         imagePath: new URL(`./assets/items/muzzle_brake_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     muzzle_brake_ii_blueprint: {
         name: "Muzzle Brake II Blueprint",
@@ -2112,7 +2429,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/muzzle_brake_ii.png",
         imagePath: new URL(`./assets/items/muzzle_brake_ii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     noisemaker: {
         name: "Noisemaker",
@@ -2120,7 +2438,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/noisemaker.png",
         imagePath: new URL(`./assets/items/noisemaker.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     number_plate: {
         name: "Number Plate",
@@ -2128,7 +2447,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/number_plate.png",
         imagePath: new URL(`./assets/items/number_plate.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     oil: {
         name: "Oil",
@@ -2136,7 +2456,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/oil.png",
         imagePath: new URL(`./assets/items/oil.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     olives: {
         name: "Olives",
@@ -2144,7 +2465,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/olives.png",
         imagePath: new URL(`./assets/items/olives.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     osprey_blueprint: {
         name: "Osprey Blueprint",
@@ -2152,7 +2474,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/osprey_blueprint.png",
         imagePath: new URL(`./assets/items/osprey_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     osprey_i: {
         name: "Osprey I",
@@ -2160,7 +2483,8 @@ export const Items = {
         category: Category.SniperRifle,
         rawImagePath: "arcraiders-data/images/items/osprey.png",
         imagePath: new URL(`./assets/items/osprey_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     osprey_ii: {
         name: "Osprey II",
@@ -2168,7 +2492,8 @@ export const Items = {
         category: Category.SniperRifle,
         rawImagePath: "arcraiders-data/images/items/osprey.png",
         imagePath: new URL(`./assets/items/osprey_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     osprey_iii: {
         name: "Osprey III",
@@ -2176,7 +2501,8 @@ export const Items = {
         category: Category.SniperRifle,
         rawImagePath: "arcraiders-data/images/items/osprey.png",
         imagePath: new URL(`./assets/items/osprey_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     osprey_iv: {
         name: "Osprey IV",
@@ -2184,7 +2510,8 @@ export const Items = {
         category: Category.SniperRifle,
         rawImagePath: "arcraiders-data/images/items/osprey.png",
         imagePath: new URL(`./assets/items/osprey_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     padded_stock: {
         name: "Padded Stock",
@@ -2192,7 +2519,17 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/padded_stock.png",
         imagePath: new URL(`./assets/items/padded_stock.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
+    } as Item,
+    padded_stock_blueprint: {
+        name: "Padded Stock Blueprint",
+        rarity: Rarity.Legendary,
+        category: Category.Blueprint,
+        rawImagePath: "arcraiders-data/images/items/padded_stock_blueprint.png",
+        imagePath: new URL(`./assets/items/padded_stock_blueprint.jpg`, import.meta.url).href,
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     painted_box: {
         name: "Painted Box",
@@ -2200,7 +2537,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/painted_box.png",
         imagePath: new URL(`./assets/items/painted_box.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     photoelectric_cloak: {
         name: "Photoelectric Cloak",
@@ -2208,7 +2546,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/photoelectric_cloak.png",
         imagePath: new URL(`./assets/items/photoelectric_cloak.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     plastic_parts: {
         name: "Plastic Parts",
@@ -2216,7 +2555,8 @@ export const Items = {
         category: Category.Basic,
         rawImagePath: "arcraiders-data/images/items/plastic_parts.png",
         imagePath: new URL(`./assets/items/plastic_parts.jpg`, import.meta.url).href,
-        stackSize: 50
+        stackSize: 50,
+        craftedQuantity: 1,
     } as Item,
     playing_cards: {
         name: "Playing Cards",
@@ -2224,7 +2564,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/playing_cards.png",
         imagePath: new URL(`./assets/items/playing_cards.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     polluted_air_filter: {
         name: "Polluted Air Filter",
@@ -2232,7 +2573,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/polluted_air_filter.png",
         imagePath: new URL(`./assets/items/polluted_air_filter.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     pop_trigger: {
         name: "Pop Trigger",
@@ -2240,7 +2582,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/pop_trigger.png",
         imagePath: new URL(`./assets/items/pop_trigger.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     portable_tv: {
         name: "Portable TV",
@@ -2248,7 +2591,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/portable_tv.png",
         imagePath: new URL(`./assets/items/portable_tv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     poster_of_natural_wonders: {
         name: "Poster of Natural Wonders",
@@ -2256,7 +2600,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/poster_of_natural_wonders.png",
         imagePath: new URL(`./assets/items/poster_of_natural_wonders.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     pottery: {
         name: "Pottery",
@@ -2264,7 +2609,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/pottery.png",
         imagePath: new URL(`./assets/items/pottery.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     power_bank: {
         name: "Power Bank",
@@ -2272,7 +2618,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/power_bank.png",
         imagePath: new URL(`./assets/items/power_bank.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     power_cable: {
         name: "Power Cable",
@@ -2280,7 +2627,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/power_cable.png",
         imagePath: new URL(`./assets/items/power_cable.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     power_rod: {
         name: "Power Rod",
@@ -2288,7 +2636,8 @@ export const Items = {
         category: Category.Refined,
         rawImagePath: "arcraiders-data/images/items/power_rod.png",
         imagePath: new URL(`./assets/items/power_rod.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     prickly_pear: {
         name: "Prickly Pear",
@@ -2296,7 +2645,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/prickly_pear.png",
         imagePath: new URL(`./assets/items/prickly_pear.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     processor: {
         name: "Processor",
@@ -2304,7 +2654,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/processor.png",
         imagePath: new URL(`./assets/items/processor.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     projector: {
         name: "Projector",
@@ -2312,7 +2663,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/projector.png",
         imagePath: new URL(`./assets/items/projector.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     pulse_mine: {
         name: "Pulse Mine",
@@ -2320,7 +2672,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/pulse_mine.png",
         imagePath: new URL(`./assets/items/pulse_mine.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     queen_reactor: {
         name: "Queen Reactor",
@@ -2328,7 +2681,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/queen_part.png",
         imagePath: new URL(`./assets/items/queen_reactor.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     radio: {
         name: "Radio",
@@ -2336,7 +2690,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/radio.png",
         imagePath: new URL(`./assets/items/radio.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     radio_relay: {
         name: "Radio Relay",
@@ -2344,7 +2699,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/radio_relay.png",
         imagePath: new URL(`./assets/items/radio_relay.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     radio_renegade: {
         name: "Radio Renegade",
@@ -2352,7 +2708,8 @@ export const Items = {
         category: Category.Outfit,
         rawImagePath: "arcraiders-data/images/items/radio_renegade.png",
         imagePath: new URL(`./assets/items/radio_renegade.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     raider_hatch_key: {
         name: "Raider Hatch Key",
@@ -2360,7 +2717,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/raider_hatch_key.png",
         imagePath: new URL(`./assets/items/raider_hatch_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     rattler_i: {
         name: "Rattler I",
@@ -2368,7 +2726,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/rattler.png",
         imagePath: new URL(`./assets/items/rattler_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     rattler_ii: {
         name: "Rattler II",
@@ -2376,7 +2735,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/rattler.png",
         imagePath: new URL(`./assets/items/rattler_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     rattler_iii: {
         name: "Rattler III",
@@ -2384,7 +2744,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/rattler.png",
         imagePath: new URL(`./assets/items/rattler_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     rattler_iv: {
         name: "Rattler IV",
@@ -2392,7 +2753,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/rattler.png",
         imagePath: new URL(`./assets/items/rattler_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     recorder: {
         name: "Recorder",
@@ -2400,7 +2762,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/recorder.png",
         imagePath: new URL(`./assets/items/recorder.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     red_coral_jewelry: {
         name: "Red Coral Jewelry",
@@ -2408,7 +2771,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/red_coral_jewelry.png",
         imagePath: new URL(`./assets/items/red_coral_jewelry.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     red_light_stick: {
         name: "Red Light Stick",
@@ -2416,7 +2780,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/red_light_stick.png",
         imagePath: new URL(`./assets/items/red_light_stick.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     remote_control: {
         name: "Remote Control",
@@ -2424,7 +2789,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/remote_control.png",
         imagePath: new URL(`./assets/items/remote_control.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     remote_raider_flare: {
         name: "Remote Raider Flare",
@@ -2432,7 +2798,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/remote_raider_flare.png",
         imagePath: new URL(`./assets/items/remote_raider_flare.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     remote_raider_flare_blueprint: {
         name: "Remote Raider Flare Blueprint",
@@ -2440,7 +2807,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/remote_raider_flare.png",
         imagePath: new URL(`./assets/items/remote_raider_flare_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     renegade_i: {
         name: "Renegade I",
@@ -2448,7 +2816,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/renegade.png",
         imagePath: new URL(`./assets/items/renegade_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     renegade_ii: {
         name: "Renegade II",
@@ -2456,7 +2825,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/renegade.png",
         imagePath: new URL(`./assets/items/renegade_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     renegade_iii: {
         name: "Renegade III",
@@ -2464,7 +2834,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/renegade.png",
         imagePath: new URL(`./assets/items/renegade_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     renegade_iv: {
         name: "Renegade IV",
@@ -2472,7 +2843,8 @@ export const Items = {
         category: Category.BattleRifle,
         rawImagePath: "arcraiders-data/images/items/renegade.png",
         imagePath: new URL(`./assets/items/renegade_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     resin: {
         name: "Resin",
@@ -2480,7 +2852,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/resin.png",
         imagePath: new URL(`./assets/items/resin.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     rocketeer_driver: {
         name: "Rocketeer Driver",
@@ -2488,7 +2861,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rocketeer_driver.png",
         imagePath: new URL(`./assets/items/rocketeer_driver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rocket_thruster: {
         name: "Rocket Thruster",
@@ -2496,7 +2870,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rocket_thruster.png",
         imagePath: new URL(`./assets/items/rocket_thruster.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     roots: {
         name: "Roots",
@@ -2504,7 +2879,8 @@ export const Items = {
         category: Category.Nature,
         rawImagePath: "arcraiders-data/images/items/roots.png",
         imagePath: new URL(`./assets/items/roots.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     rope: {
         name: "Rope",
@@ -2512,7 +2888,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/rope.png",
         imagePath: new URL(`./assets/items/rope.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     rosary: {
         name: "Rosary",
@@ -2520,7 +2897,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/rosary.png",
         imagePath: new URL(`./assets/items/rosary.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rotary_encoder: {
         name: "Rotary Encoder",
@@ -2528,7 +2906,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rotary_encoder.png",
         imagePath: new URL(`./assets/items/rotary_encoder.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rubber_duck: {
         name: "Rubber Duck",
@@ -2536,7 +2915,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/rubber_duck.png",
         imagePath: new URL(`./assets/items/rubber_duck.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     rubber_pad: {
         name: "Rubber Pad",
@@ -2544,7 +2924,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rubber_pad.png",
         imagePath: new URL(`./assets/items/rubber_pad.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rubber_parts: {
         name: "Rubber Parts",
@@ -2552,7 +2933,8 @@ export const Items = {
         category: Category.Basic,
         rawImagePath: "arcraiders-data/images/items/rubber_parts.png",
         imagePath: new URL(`./assets/items/rubber_parts.jpg`, import.meta.url).href,
-        stackSize: 50
+        stackSize: 50,
+        craftedQuantity: 1,
     } as Item,
     ruined_accordion: {
         name: "Ruined Accordion",
@@ -2560,7 +2942,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ruined_accordion.png",
         imagePath: new URL(`./assets/items/ruined_accordion.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     ruined_baton: {
         name: "Ruined Baton",
@@ -2568,7 +2951,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ruined_baton.png",
         imagePath: new URL(`./assets/items/ruined_baton.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     ruined_handcuffs: {
         name: "Ruined Handcuffs",
@@ -2576,7 +2960,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ruined_handcuffs.png",
         imagePath: new URL(`./assets/items/ruined_handcuffs.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     ruined_parachute: {
         name: "Ruined Parachute",
@@ -2584,7 +2969,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ruined_parachute.png",
         imagePath: new URL(`./assets/items/ruined_parachute.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     ruined_riot_shield: {
         name: "Ruined Riot Shield",
@@ -2592,7 +2978,17 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/ruined_riot_shield.png",
         imagePath: new URL(`./assets/items/ruined_riot_shield.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
+    } as Item,
+    ruined_tactical_vest: {
+        name: "Ruined Tactical Vest",
+        rarity: Rarity.Uncommon,
+        category: Category.Recyclable,
+        rawImagePath: "arcraiders-data/images/items/ruined_tactical_vest.png",
+        imagePath: new URL(`./assets/items/ruined_tactical_vest.jpg`, import.meta.url).href,
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rusted_bolts: {
         name: "Rusted Bolts",
@@ -2600,7 +2996,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rusted_bolts.png",
         imagePath: new URL(`./assets/items/rusted_bolts.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rusted_gear: {
         name: "Rusted Gear",
@@ -2608,7 +3005,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rusted_gear.png",
         imagePath: new URL(`./assets/items/rusted_gear.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rusted_shut_medical_kit: {
         name: "Rusted Shut Medical Kit",
@@ -2616,7 +3014,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rusted_shut_medical_kit.png",
         imagePath: new URL(`./assets/items/rusted_shut_medical_kit.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     rusted_tools: {
         name: "Rusted Tools",
@@ -2624,7 +3023,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rusted_tools.png",
         imagePath: new URL(`./assets/items/rusted_tools.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     rusty_arc_steel: {
         name: "Rusty ARC Steel",
@@ -2632,7 +3032,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/rusty_arc_steel.png",
         imagePath: new URL(`./assets/items/rusty_arc_steel.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     sample_cleaner: {
         name: "Sample Cleaner",
@@ -2640,7 +3041,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/sample_cleaner.png",
         imagePath: new URL(`./assets/items/sample_cleaner.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     seeker_grenade: {
         name: "Seeker Grenade",
@@ -2648,7 +3050,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/seeker_grenade.png",
         imagePath: new URL(`./assets/items/seeker_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     sensors: {
         name: "Sensors",
@@ -2656,7 +3059,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/sensors.png",
         imagePath: new URL(`./assets/items/sensors.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     sentinel_firing_core: {
         name: "Sentinel Firing Core",
@@ -2664,7 +3068,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/sentinel_firing_core.png",
         imagePath: new URL(`./assets/items/sentinel_firing_core.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     shield_recharger: {
         name: "Shield Recharger",
@@ -2672,7 +3077,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/shield_recharger.png",
         imagePath: new URL(`./assets/items/shield_recharger.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     shotgun_ammo: {
         name: "Shotgun Ammo",
@@ -2680,7 +3086,8 @@ export const Items = {
         category: Category.Ammunition,
         rawImagePath: "arcraiders-data/images/items/shotgun_ammo.png",
         imagePath: new URL(`./assets/items/shotgun_ammo.jpg`, import.meta.url).href,
-        stackSize: 20
+        stackSize: 20,
+        craftedQuantity: 5,
     } as Item,
     shotgun_choke_i: {
         name: "Shotgun Choke I",
@@ -2688,7 +3095,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/shotgun_choke_i.png",
         imagePath: new URL(`./assets/items/shotgun_choke_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     shotgun_choke_ii: {
         name: "Shotgun Choke II",
@@ -2696,7 +3104,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/shotgun_choke_ii.png",
         imagePath: new URL(`./assets/items/shotgun_choke_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     shotgun_choke_iii: {
         name: "Shotgun Choke III",
@@ -2704,7 +3113,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/shotgun_choke_iii.png",
         imagePath: new URL(`./assets/items/shotgun_choke_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     shotgun_silencer: {
         name: "Shotgun Silencer",
@@ -2712,7 +3122,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/shotgun_silencer.png",
         imagePath: new URL(`./assets/items/shotgun_silencer.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     showstopper: {
         name: "Showstopper",
@@ -2720,7 +3131,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/showstopper.png",
         imagePath: new URL(`./assets/items/showstopper.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     shrapnel_grenade: {
         name: "Shrapnel Grenade",
@@ -2728,7 +3140,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/shrapnel_grenade.png",
         imagePath: new URL(`./assets/items/shrapnel_grenade.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     shredder_gyro: {
         name: "Shredder Gyro",
@@ -2736,7 +3149,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/shredder_gyro.png",
         imagePath: new URL(`./assets/items/shredder_gyro.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     signal_amplifier: {
         name: "Signal Amplifier",
@@ -2744,7 +3158,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/signal_amplifier.png",
         imagePath: new URL(`./assets/items/signal_amplifier.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     silencer_i: {
         name: "Silencer I",
@@ -2752,7 +3167,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/silencer_i.png",
         imagePath: new URL(`./assets/items/silencer_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     silencer_ii: {
         name: "Silencer II",
@@ -2760,7 +3176,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/silencer_ii.png",
         imagePath: new URL(`./assets/items/silencer_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     silencer_iii: {
         name: "Silencer III",
@@ -2768,7 +3185,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/silencer_iii.png",
         imagePath: new URL(`./assets/items/silencer_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     silencer_ii_blueprint: {
         name: "Silencer II Blueprint",
@@ -2776,7 +3194,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/silencer_ii.png",
         imagePath: new URL(`./assets/items/silencer_ii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     silencer_i_blueprint: {
         name: "Silencer I Blueprint",
@@ -2784,7 +3203,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/silencer_i.png",
         imagePath: new URL(`./assets/items/silencer_i_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     silver_teaspoon_set: {
         name: "Silver Teaspoon Set",
@@ -2792,7 +3212,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/silver_teaspoon_set.png",
         imagePath: new URL(`./assets/items/silver_teaspoon_set.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     simple_gun_parts: {
         name: "Simple Gun Parts",
@@ -2800,7 +3221,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/simple_gun_parts.png",
         imagePath: new URL(`./assets/items/simple_gun_parts.jpg`, import.meta.url).href,
-        stackSize: 10
+        stackSize: 10,
+        craftedQuantity: 1,
     } as Item,
     smoke_grenade: {
         name: "Smoke Grenade",
@@ -2808,7 +3230,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/smoke_grenade.png",
         imagePath: new URL(`./assets/items/smoke_grenade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     smoke_grenade_trap: {
         name: "Smoke Grenade Trap",
@@ -2816,7 +3239,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/smoke_grenade_trap.png",
         imagePath: new URL(`./assets/items/smoke_grenade_trap.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     snap_blast_grenade: {
         name: "Snap Blast Grenade",
@@ -2824,7 +3248,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/snap_blast_grenade.png",
         imagePath: new URL(`./assets/items/snap_blast_grenade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     snap_hook: {
         name: "Snap Hook",
@@ -2832,7 +3257,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/snap_hook.png",
         imagePath: new URL(`./assets/items/snap_hook.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     snap_hook_blueprint: {
         name: "Snap Hook Blueprint",
@@ -2840,7 +3266,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/snap_hook.png",
         imagePath: new URL(`./assets/items/snap_hook_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     snitch_scanner: {
         name: "Snitch Scanner",
@@ -2848,7 +3275,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/snitch_scanner.png",
         imagePath: new URL(`./assets/items/snitch_scanner.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     spaceport_container_storage_key: {
         name: "Spaceport Container Storage Key",
@@ -2856,7 +3284,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/spaceport_control_tower_key.png",
         imagePath: new URL(`./assets/items/spaceport_container_storage_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     spaceport_control_tower_key: {
         name: "Spaceport Control Tower Key",
@@ -2864,7 +3293,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/spaceport_control_tower_key.png",
         imagePath: new URL(`./assets/items/spaceport_control_tower_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     spaceport_trench_tower_key: {
         name: "Spaceport Trench Tower Key",
@@ -2872,7 +3302,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/spaceport_trench_tower_key.png",
         imagePath: new URL(`./assets/items/spaceport_trench_tower_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     spaceport_warehouse_key: {
         name: "Spaceport Warehouse Key",
@@ -2880,7 +3311,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/spaceport_trench_tower_key.png",
         imagePath: new URL(`./assets/items/spaceport_warehouse_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     speaker_component: {
         name: "Speaker Component",
@@ -2888,7 +3320,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/speaker_component.png",
         imagePath: new URL(`./assets/items/speaker_component.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     spectrometer: {
         name: "Spectrometer",
@@ -2896,7 +3329,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/spectrometer.png",
         imagePath: new URL(`./assets/items/spectrometer.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     spectrum_analyzer: {
         name: "Spectrum Analyzer",
@@ -2904,7 +3338,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/spectrum_analyzer.png",
         imagePath: new URL(`./assets/items/spectrum_analyzer.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     spotter_relay: {
         name: "Spotter Relay",
@@ -2912,7 +3347,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/spotter_relay.png",
         imagePath: new URL(`./assets/items/spotter_relay.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     spring_cushion: {
         name: "Spring Cushion",
@@ -2920,7 +3356,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/spring_cushion.png",
         imagePath: new URL(`./assets/items/spring_cushion.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     stable_stock_i: {
         name: "Stable Stock I",
@@ -2928,7 +3365,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/stable_stock_i.png",
         imagePath: new URL(`./assets/items/stable_stock_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stable_stock_ii: {
         name: "Stable Stock II",
@@ -2936,7 +3374,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/stable_stock_ii.png",
         imagePath: new URL(`./assets/items/stable_stock_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stable_stock_iii: {
         name: "Stable Stock III",
@@ -2944,7 +3383,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/stable_stock_iii.png",
         imagePath: new URL(`./assets/items/stable_stock_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     statuette: {
         name: "Statuette",
@@ -2952,7 +3392,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/statuette.png",
         imagePath: new URL(`./assets/items/statuette.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     steel_spring: {
         name: "Steel Spring",
@@ -2960,7 +3401,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/steel_spring.png",
         imagePath: new URL(`./assets/items/steel_spring.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     stella_montis_assembly_admin_key: {
         name: "Stella Montis Assembly Admin Key",
@@ -2968,7 +3410,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/stella_montis_assembly_admin_key.png",
         imagePath: new URL(`./assets/items/stella_montis_assembly_admin_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stella_montis_medical_storage_key: {
         name: "Stella Montis Medical Storage Key",
@@ -2976,7 +3419,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/stella_montis_medical_storage_key.png",
         imagePath: new URL(`./assets/items/stella_montis_medical_storage_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stella_montis_security_checkpoint_key: {
         name: "Stella Montis Security Checkpoint Key",
@@ -2984,7 +3428,8 @@ export const Items = {
         category: Category.Key,
         rawImagePath: "arcraiders-data/images/items/stella_montis_security_checkpoint_key.png",
         imagePath: new URL(`./assets/items/stella_montis_security_checkpoint_key.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     sterilized_bandage: {
         name: "Sterilized Bandage",
@@ -2992,39 +3437,44 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/sterilized_bandage.png",
         imagePath: new URL(`./assets/items/sterilized_bandage.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     stitcher_i: {
         name: "Stitcher I",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.SMG,
         rawImagePath: "arcraiders-data/images/items/stitcher.png",
         imagePath: new URL(`./assets/items/stitcher_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stitcher_ii: {
         name: "Stitcher II",
         rarity: Rarity.Common,
-        category: Category.Weapon,
+        category: Category.SMG,
         rawImagePath: "arcraiders-data/images/items/stitcher.png",
         imagePath: new URL(`./assets/items/stitcher_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stitcher_iii: {
         name: "Stitcher III",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.SMG,
         rawImagePath: "arcraiders-data/images/items/stitcher.png",
         imagePath: new URL(`./assets/items/stitcher_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     stitcher_iv: {
         name: "Stitcher IV",
         rarity: Rarity.Uncommon,
-        category: Category.Weapon,
+        category: Category.SMG,
         rawImagePath: "arcraiders-data/images/items/stitcher.png",
         imagePath: new URL(`./assets/items/stitcher_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     surge_shield_recharger: {
         name: "Surge Shield Recharger",
@@ -3032,7 +3482,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/surge_shield_recharger.png",
         imagePath: new URL(`./assets/items/surge_shield_recharger.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     surveyor_vault: {
         name: "Surveyor Vault",
@@ -3040,7 +3491,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/surveyor_vault.png",
         imagePath: new URL(`./assets/items/surveyor_vault.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     synthesized_fuel: {
         name: "Synthesized Fuel",
@@ -3048,7 +3500,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/synthesized_fuel.png",
         imagePath: new URL(`./assets/items/synthesized_fuel.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     syringe: {
         name: "Syringe",
@@ -3056,7 +3509,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/syringe.png",
         imagePath: new URL(`./assets/items/syringe.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     tactical_mk1: {
         name: "Tactical Mk. 1",
@@ -3064,7 +3518,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/tactical_i.png",
         imagePath: new URL(`./assets/items/tactical_mk1.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     tactical_mk2: {
         name: "Tactical Mk. 2",
@@ -3072,7 +3527,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/tactical_i.png",
         imagePath: new URL(`./assets/items/tactical_mk2.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     tactical_mk3_defensive: {
         name: "Tactical Mk. 3 (Defensive)",
@@ -3080,7 +3536,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/tactical_iii_defensive.png",
         imagePath: new URL(`./assets/items/tactical_mk3_defensive.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     tactical_mk3_healing: {
         name: "Tactical Mk. 3 (Healing)",
@@ -3088,7 +3545,8 @@ export const Items = {
         category: Category.Augment,
         rawImagePath: "arcraiders-data/images/items/tactical_mk3_healing.png",
         imagePath: new URL(`./assets/items/tactical_mk3_healing.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     tactical_mk3_healing_blueprint: {
         name: "Tactical Mk. 3 (Healing) Blueprint",
@@ -3096,7 +3554,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/tactical_mk3_healing_blueprint.png",
         imagePath: new URL(`./assets/items/tactical_mk3_healing_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     tagging_grenade: {
         name: "Tagging Grenade",
@@ -3104,7 +3563,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/tagging_grenade.png",
         imagePath: new URL(`./assets/items/tagging_grenade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     tattered_arc_lining: {
         name: "Tattered Arc Lining",
@@ -3112,7 +3572,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/tattered_arc_lining.png",
         imagePath: new URL(`./assets/items/tattered_arc_lining.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     tattered_clothes: {
         name: "Tattered Clothes",
@@ -3120,7 +3581,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/tattered_clothes.png",
         imagePath: new URL(`./assets/items/tattered_clothes.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     telemetry_transceiver: {
         name: "Telemetry Transceiver",
@@ -3128,7 +3590,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/telemetry_transceiver.png",
         imagePath: new URL(`./assets/items/telemetry_transceiver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     tempest_i: {
         name: "Tempest I",
@@ -3136,7 +3599,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/tempest.png",
         imagePath: new URL(`./assets/items/tempest_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     temptest_ii: {
         name: "Tempest II",
@@ -3144,7 +3608,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/tempest.png",
         imagePath: new URL(`./assets/items/temptest_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     temptest_iii: {
         name: "Tempest III",
@@ -3152,7 +3617,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/tempest.png",
         imagePath: new URL(`./assets/items/temptest_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     temptest_iv: {
         name: "Tempest IV",
@@ -3160,7 +3626,8 @@ export const Items = {
         category: Category.AssaultRifle,
         rawImagePath: "arcraiders-data/images/items/tempest.png",
         imagePath: new URL(`./assets/items/temptest_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     thermostat: {
         name: "Thermostat",
@@ -3168,7 +3635,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/thermostat.png",
         imagePath: new URL(`./assets/items/thermostat.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     tick_pod: {
         name: "Tick Pod",
@@ -3176,7 +3644,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/tick_pod.png",
         imagePath: new URL(`./assets/items/tick_pod.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     toaster: {
         name: "Toaster",
@@ -3184,7 +3653,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/toaster.png",
         imagePath: new URL(`./assets/items/toaster.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     torn_blanket: {
         name: "Torn Blanket",
@@ -3192,7 +3662,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/torn_blanket.png",
         imagePath: new URL(`./assets/items/torn_blanket.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     torn_book: {
         name: "Torn Book",
@@ -3200,7 +3671,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/torn_book.png",
         imagePath: new URL(`./assets/items/torn_book.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     torrente_blueprint: {
         name: "Torrente Blueprint",
@@ -3208,7 +3680,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/torrente_blueprint.png",
         imagePath: new URL(`./assets/items/torrente_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     torrente_i: {
         name: "Torrente I",
@@ -3216,7 +3689,8 @@ export const Items = {
         category: Category.LMG,
         rawImagePath: "arcraiders-data/images/items/torrente.png",
         imagePath: new URL(`./assets/items/torrente_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     torrente_ii: {
         name: "Torrente II",
@@ -3224,7 +3698,8 @@ export const Items = {
         category: Category.LMG,
         rawImagePath: "arcraiders-data/images/items/torrente.png",
         imagePath: new URL(`./assets/items/torrente_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     torrente_iii: {
         name: "Torrente III",
@@ -3232,7 +3707,8 @@ export const Items = {
         category: Category.LMG,
         rawImagePath: "arcraiders-data/images/items/torrente.png",
         imagePath: new URL(`./assets/items/torrente_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     torrente_iv: {
         name: "Torrente IV",
@@ -3240,7 +3716,8 @@ export const Items = {
         category: Category.LMG,
         rawImagePath: "arcraiders-data/images/items/torrente.png",
         imagePath: new URL(`./assets/items/torrente_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     trailblazer: {
         name: "Trailblazer",
@@ -3248,7 +3725,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/trailblazer.png",
         imagePath: new URL(`./assets/items/trailblazer.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     trigger_nade: {
         name: "Trigger 'Nade",
@@ -3256,7 +3734,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/trigger_nade.png",
         imagePath: new URL(`./assets/items/trigger_nade.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     trigger_nade_blueprint: {
         name: "Trigger Nade Blueprint",
@@ -3264,7 +3743,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/trigger_nade_blueprint.png",
         imagePath: new URL(`./assets/items/trigger_nade_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     turbo_pump: {
         name: "Turbo Pump",
@@ -3272,7 +3752,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/turbo_pump.png",
         imagePath: new URL(`./assets/items/turbo_pump.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     unusable_weapon: {
         name: "Unusable Weapon",
@@ -3280,7 +3761,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/unusable_weapon.png",
         imagePath: new URL(`./assets/items/unusable_weapon.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: null,
+        craftedQuantity: 1,
     } as Item,
     vase: {
         name: "Vase",
@@ -3288,7 +3770,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/vase.png",
         imagePath: new URL(`./assets/items/vase.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     venator_blueprint: {
         name: "Venator Blueprint",
@@ -3296,7 +3779,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/venator.png",
         imagePath: new URL(`./assets/items/venator_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     venator_i: {
         name: "Venator I",
@@ -3304,7 +3788,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/venator.png",
         imagePath: new URL(`./assets/items/venator_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     venator_ii: {
         name: "Venator II",
@@ -3312,7 +3797,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/venator.png",
         imagePath: new URL(`./assets/items/venator_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     venator_iii: {
         name: "Venator III",
@@ -3320,7 +3806,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/venator.png",
         imagePath: new URL(`./assets/items/venator_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     venator_iv: {
         name: "Venator IV",
@@ -3328,7 +3815,8 @@ export const Items = {
         category: Category.Pistol,
         rawImagePath: "arcraiders-data/images/items/venator.png",
         imagePath: new URL(`./assets/items/venator_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vertical_grip_i: {
         name: "Vertical Grip I",
@@ -3336,7 +3824,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/vertical_grip_i.png",
         imagePath: new URL(`./assets/items/vertical_grip_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vertical_grip_ii: {
         name: "Vertical Grip II",
@@ -3344,7 +3833,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/vertical_grip_ii.png",
         imagePath: new URL(`./assets/items/vertical_grip_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vertical_grip_iii: {
         name: "Vertical Grip III",
@@ -3352,7 +3842,8 @@ export const Items = {
         category: Category.Modification,
         rawImagePath: "arcraiders-data/images/items/vertical_grip_iii.png",
         imagePath: new URL(`./assets/items/vertical_grip_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vertical_grip_iii_blueprint: {
         name: "Vertical Grip III Blueprint",
@@ -3360,7 +3851,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/vertical_grip_iii_blueprint.png",
         imagePath: new URL(`./assets/items/vertical_grip_iii_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     very_comfortable_pillow: {
         name: "Very Comfortable Pillow",
@@ -3368,7 +3860,8 @@ export const Items = {
         category: Category.Trinket,
         rawImagePath: "arcraiders-data/images/items/very_comfortable_pillow.png",
         imagePath: new URL(`./assets/items/very_comfortable_pillow.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     vita_shot: {
         name: "Vita Shot",
@@ -3376,7 +3869,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/vita_shot.png",
         imagePath: new URL(`./assets/items/vita_shot.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     vita_shot_blueprint: {
         name: "Vita Shot Blueprint",
@@ -3384,7 +3878,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/vita_shot.png",
         imagePath: new URL(`./assets/items/vita_shot_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vita_spray: {
         name: "Vita Spray",
@@ -3392,7 +3887,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/vita_spray.png",
         imagePath: new URL(`./assets/items/vita_spray.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vita_spray_blueprint: {
         name: "Vita Spray Blueprint",
@@ -3400,7 +3896,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/vita_spray.png",
         imagePath: new URL(`./assets/items/vita_spray_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     volcanic_rock: {
         name: "Volcanic Rock",
@@ -3408,7 +3905,8 @@ export const Items = {
         category: Category.Misc,
         rawImagePath: "arcraiders-data/images/items/volcanic_rock.png",
         imagePath: new URL(`./assets/items/volcanic_rock.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     voltage_converter: {
         name: "Voltage Converter",
@@ -3416,7 +3914,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/voltage_converter.png",
         imagePath: new URL(`./assets/items/voltage_converter.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     vulcano_i: {
         name: "Vulcano I",
@@ -3424,7 +3923,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/vulcano.png",
         imagePath: new URL(`./assets/items/vulcano_i.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vulcano_ii: {
         name: "Vulcano II",
@@ -3432,7 +3932,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/vulcano.png",
         imagePath: new URL(`./assets/items/vulcano_ii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vulcano_iii: {
         name: "Vulcano III",
@@ -3440,7 +3941,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/vulcano.png",
         imagePath: new URL(`./assets/items/vulcano_iii.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     vulcano_iv: {
         name: "Vulcano IV",
@@ -3448,7 +3950,8 @@ export const Items = {
         category: Category.Shotgun,
         rawImagePath: "arcraiders-data/images/items/vulcano.png",
         imagePath: new URL(`./assets/items/vulcano_iv.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     wasp_driver: {
         name: "Wasp Driver",
@@ -3456,7 +3959,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/wasp_driver.png",
         imagePath: new URL(`./assets/items/wasp_driver.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     water_filter: {
         name: "Water Filter",
@@ -3464,7 +3968,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/water_filter.png",
         imagePath: new URL(`./assets/items/water_filter.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     water_pump: {
         name: "Water Pump",
@@ -3472,7 +3977,8 @@ export const Items = {
         category: Category.Recyclable,
         rawImagePath: "arcraiders-data/images/items/water_pump.png",
         imagePath: new URL(`./assets/items/water_pump.jpg`, import.meta.url).href,
-        stackSize: 3
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
     wires: {
         name: "Wires",
@@ -3480,7 +3986,8 @@ export const Items = {
         category: Category.Topside,
         rawImagePath: "arcraiders-data/images/items/wires.png",
         imagePath: new URL(`./assets/items/wires.jpg`, import.meta.url).href,
-        stackSize: 15
+        stackSize: 15,
+        craftedQuantity: 1,
     } as Item,
     wolfpack: {
         name: "Wolfpack",
@@ -3488,7 +3995,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/wolfpack.png",
         imagePath: new URL(`./assets/items/wolfpack.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     wolfpack_blueprint: {
         name: "Wolfpack Blueprint",
@@ -3496,7 +4004,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/wolfpack_blueprint.png",
         imagePath: new URL(`./assets/items/wolfpack_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     yellow_light_stick: {
         name: "Yellow Light Stick",
@@ -3504,7 +4013,8 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/yellow_light_stick.png",
         imagePath: new URL(`./assets/items/yellow_light_stick.jpg`, import.meta.url).href,
-        stackSize: 5
+        stackSize: 5,
+        craftedQuantity: 1,
     } as Item,
     yellow_light_stick_blueprint: {
         name: "Yellow Light Stick Blueprint",
@@ -3512,7 +4022,8 @@ export const Items = {
         category: Category.Blueprint,
         rawImagePath: "arcraiders-data/images/items/yellow_light_stick.png",
         imagePath: new URL(`./assets/items/yellow_light_stick_blueprint.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 1,
+        craftedQuantity: 1,
     } as Item,
     zipline: {
         name: "Zipline",
@@ -3520,6 +4031,7 @@ export const Items = {
         category: Category.QuickUse,
         rawImagePath: "arcraiders-data/images/items/zipline.png",
         imagePath: new URL(`./assets/items/zipline.jpg`, import.meta.url).href,
-        stackSize: 1
+        stackSize: 3,
+        craftedQuantity: 1,
     } as Item,
 } as const;

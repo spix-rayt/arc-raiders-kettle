@@ -35,6 +35,7 @@ export const Category = {
   SniperRifle: "SniperRifle",
   Material: "Material",
   Outfit: "Outfit",
+  SMG: "SMG",
 } as const;
 export type Category = typeof Category[keyof typeof Category];
 
@@ -48,13 +49,24 @@ export class ItemAmount {
   }
 }
 
+export class CraftSpaceSavingScore {
+  item: Item;
+  score: number | null;
+
+  constructor(item: Item, score: number | null) {
+    this.item = item;
+    this.score = score;
+  }
+}
+
 export interface Item {
   name: string;
   rarity: Rarity;
   category: Category;
   rawImagePath: string;
   imagePath: string;
-  stackSize: number;
+  stackSize: number | null;
+  craftedQuantity: number;
 }
 
 export interface Weapon {

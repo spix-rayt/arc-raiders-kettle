@@ -14,6 +14,9 @@
         <li v-if="isDev">
           <router-link to="/equipment">Equipment</router-link>
         </li>
+        <li>
+          <router-link to="/craft-space-saving-score">Craft space saving score</router-link>
+        </li>
       </ul>
     </nav>
     

@@ -7,6 +7,8 @@ var fsp = require('fs/promises');
 const path = require('path');
 import { Items } from "../data_items";
 
+const JPEG_QUALITY = 30;
+
 async function processWeaponScreenshotImages() {
     const inputDir = path.join(__dirname, '../raw-images/weapons/screenshots');
     const outputDir = path.join(__dirname, '../assets/weapons/screenshots');
@@ -22,7 +24,7 @@ async function processWeaponScreenshotImages() {
             const outputFilename = file.replace(/\.[^/.]+$/, "") + '.jpg';
             const outputPath = path.join(outputDir, outputFilename);
             await fsp.mkdir(outputDir, { recursive: true });
-            await image.write(outputPath);
+            (await image.getBuffer('image/jpeg', { quality: JPEG_QUALITY })).write(outputPath);
         }
     });
 }
@@ -40,7 +42,7 @@ async function processWeaponWikiImages() {
         const outputFilename = `${getId(weapon.name)}.jpg`;
         const outputPath = path.join(outputDir, outputFilename);
         await fsp.mkdir(outputDir, { recursive: true });
-        await image.write(outputPath);
+        (await image.getBuffer('image/jpeg', { quality: JPEG_QUALITY })).write(outputPath);
     });
 }
 
@@ -63,7 +65,7 @@ async function processArmorImages() {
             const outputFilename = file.replace(/\.[^/.]+$/, "") + '.jpg';
             const outputPath = path.join(outputDir, outputFilename);
             await fsp.mkdir(outputDir, { recursive: true });
-            await image.write(outputPath);
+            (await image.getBuffer('image/jpeg', { quality: JPEG_QUALITY })).write(outputPath);
         }
     });
 }
@@ -85,14 +87,14 @@ async function processItemImages() {
                 const outputFilename = `${id}.jpg`;
                 const outputPath = path.join(outputDir, outputFilename);
                 await fsp.mkdir(outputDir, { recursive: true });
-                await image.write(outputPath);
+                (await image.getBuffer('image/jpeg', { quality: JPEG_QUALITY })).write(outputPath);
             } else {
                 const backgroundImage = await imageBackgroundByRarity(item.rarity);
                 backgroundImage.resize({ w: 128, h: 128 });
                 const outputFilename = `${id}.jpg`;
                 const outputPath = path.join(outputDir, outputFilename);
                 await fsp.mkdir(outputDir, { recursive: true });
-                await backgroundImage.write(outputPath);
+                (await backgroundImage.getBuffer('image/jpeg', { quality: JPEG_QUALITY })).write(outputPath);
             }
         } catch (error: any) {
             if (error.message.includes("webp")) {

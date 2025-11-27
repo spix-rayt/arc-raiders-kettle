@@ -83,7 +83,6 @@
           >
             <img :src="item.imagePath" :alt="item.name" />
             <span class="item-name">{{ item.name }}</span>
-            <span class="item-rarity">{{ item.rarity }}</span>
           </div>
         </div>
         <button @click="closeItemSelector" class="close-button">Close</button>
@@ -103,7 +102,6 @@
           >
             <img :src="getWeaponImage(weapon)" :alt="weapon.name" />
             <span class="item-name">{{ weapon.name }}</span>
-            <span class="item-rarity">{{ weapon.rarity }}</span>
           </div>
         </div>
         <button @click="closeWeaponSelector" class="close-button">Close</button>
@@ -123,7 +121,6 @@
           >
             <img :src="item.imagePath" :alt="item.name" />
             <span class="item-name">{{ item.name }}</span>
-            <span class="item-rarity">{{ item.rarity }}</span>
           </div>
         </div>
         <button @click="closeQuickUseSelector" class="close-button">Close</button>
@@ -172,7 +169,7 @@ const equipment = reactive<Equipment>({
   augment: null,
   shield: null,
   weapons: [null, null],
-  quickUse: []
+  quickUse: Array(20).fill(null).map(() => ({ item: null as null, amount: 0 }))
 })
 
 // Состояния модальных окон
@@ -313,13 +310,9 @@ const getWeaponImage = (weapon: Weapon) => {
   gap: 10px;
 }
 
-.right-panel {
-  flex: 1;
-}
-
 .quickuse-slots {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
 
@@ -329,6 +322,7 @@ const getWeaponImage = (weapon: Weapon) => {
   cursor: pointer;
   transition: all 0.3s ease;
   background-color: #f5f5f5;
+  
 }
 
 .slot:hover {
@@ -337,18 +331,18 @@ const getWeaponImage = (weapon: Weapon) => {
 }
 
 .small-slot {
-  width: 100px;
-  height: 100px;
+  width: 145px;
+  height: 145px;
 }
 
 .large-slot {
-  width: 200px;
+  width: 300px;
   height: 150px;
 }
 
 .quickuse-slot {
-  width: 120px;
-  height: 120px;
+  width: 125px;
+  height: 125px;
 }
 
 .slot-content {
@@ -357,25 +351,34 @@ const getWeaponImage = (weapon: Weapon) => {
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding: 5px;
+  padding: 0px;
   text-align: center;
+  position: relative;
 }
 
 .slot-content img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
 }
 
 .item-name {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 5px;
   font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  left: 6px;
 }
 
 .item-amount {
   font-size: 11px;
-  color: #666;
+  /* color: #666; */
+  position: absolute;
+  bottom: 0px;
+  right: 6px;
 }
 
 .item-rarity {
@@ -417,7 +420,7 @@ const getWeaponImage = (weapon: Weapon) => {
 
 .items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin: 20px 0;
 }
@@ -425,10 +428,11 @@ const getWeaponImage = (weapon: Weapon) => {
 .item-card {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   cursor: pointer;
   transition: all 0.2s ease;
+  position: relative;
 }
 
 .item-card:hover {
@@ -437,9 +441,9 @@ const getWeaponImage = (weapon: Weapon) => {
 }
 
 .item-card img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .amount-selector {
