@@ -76,5 +76,7 @@ const isDev = process.env.NODE_ENV === 'development';
 .content {
   flex: 1;
   padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
 }
 </style>

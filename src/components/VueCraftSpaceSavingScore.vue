@@ -46,7 +46,6 @@ const sortedScores = computed(() => {
 <style scoped>
 .craft-space-saving-table {
   width: 25vw;
-  overflow-x: auto;
 }
 
 table {

@@ -124,14 +124,13 @@ function getRomanNumeral(level: number): string {
 .weapon-details-container {
   flex: 1;
   padding: 20px;
-  overflow-y: auto;
 }
 
 .no-weapon-selected {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 90%;
   color: #666;  
   font-size: 18px;
 }

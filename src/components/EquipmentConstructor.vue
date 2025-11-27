@@ -205,7 +205,7 @@ const filteredItems = computed(() => {
 })
 
 const maxQuickUseAmount = computed(() => 
-  selectedQuickUseItem.value ? selectedQuickUseItem.value.stackSize * 10 : 0
+  selectedQuickUseItem.value?.stackSize ? selectedQuickUseItem.value.stackSize * 10 : 0
 )
 
 // Методы для открытия селекторов
