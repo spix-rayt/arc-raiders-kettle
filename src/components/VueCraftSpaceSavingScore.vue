@@ -71,4 +71,36 @@ th {
   border-radius: 8px;
   object-fit: cover;
 }
+
+
+@media (max-width: 768px) {
+  .craft-space-saving-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 300px;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px 10px;
+  }
+
+  .item-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 8px;
+    font-size: 11px;
+  }
+}
 </style>

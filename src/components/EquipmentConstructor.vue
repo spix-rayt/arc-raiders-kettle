@@ -156,7 +156,6 @@ import { Items } from '../data_items'
 import { weapons } from '../data_weapons'
 import type { Item, Weapon, Shield } from '../models'
 
-// Типы для снаряжения
 interface Equipment {
   augment: Item | null
   shield: Shield | null
@@ -164,7 +163,6 @@ interface Equipment {
   quickUse: { item: Item | null; amount: number }[]
 }
 
-// Состояние компонента
 const equipment = reactive<Equipment>({
   augment: null,
   shield: null,
@@ -172,20 +170,17 @@ const equipment = reactive<Equipment>({
   quickUse: Array(20).fill(null).map(() => ({ item: null as null, amount: 0 }))
 })
 
-// Состояния модальных окон
 const showItemSelector = ref(false)
 const showWeaponSelector = ref(false)
 const showQuickUseSelector = ref(false)
 const showAmountSelector = ref(false)
 
-// Текущий выбранный слот
 const currentSlotType = ref<'augment' | 'shield'>('augment')
 const currentWeaponSlotIndex = ref(0)
 const currentQuickUseSlotIndex = ref(0)
 const selectedQuickUseItem = ref<Item | null>(null)
 const selectedAmount = ref(1)
 
-// Фильтрованные списки предметов
 const augmentItems = computed(() => 
   Object.values(Items).filter(item => item.category === 'Augment')
 )
@@ -208,7 +203,6 @@ const maxQuickUseAmount = computed(() =>
   selectedQuickUseItem.value?.stackSize ? selectedQuickUseItem.value.stackSize * 10 : 0
 )
 
-// Методы для открытия селекторов
 const openItemSelector = (type: 'augment' | 'shield') => {
   currentSlotType.value = type
   showItemSelector.value = true
@@ -224,16 +218,14 @@ const openQuickUseSelector = (index: number) => {
   showQuickUseSelector.value = true
 }
 
-// Методы выбора предметов
 const selectItem = (item: Item) => {
   if (currentSlotType.value === 'augment') {
     equipment.augment = item
   } else if (currentSlotType.value === 'shield') {
-    // Преобразуем Item в Shield (нужно будет адаптировать под вашу структуру данных)
     equipment.shield = {
       name: item.name,
-      amount: 0, // Заглушка, нужно получить реальные данные
-      damageReduction: 0, // Заглушка
+      amount: 0,
+      damageReduction: 0,
       icon: item.imagePath
     }
   }
@@ -254,7 +246,6 @@ const selectQuickUseItem = (item: Item) => {
 
 const confirmQuickUse = () => {
   if (selectedQuickUseItem.value) {
-    // Обновляем или добавляем слот QuickUse
     if (equipment.quickUse[currentQuickUseSlotIndex.value]) {
       equipment.quickUse[currentQuickUseSlotIndex.value] = {
         item: selectedQuickUseItem.value,
@@ -270,7 +261,6 @@ const confirmQuickUse = () => {
   closeAmountSelector()
 }
 
-// Методы закрытия модальных окон
 const closeItemSelector = () => { showItemSelector.value = false }
 const closeWeaponSelector = () => { showWeaponSelector.value = false }
 const closeQuickUseSelector = () => { showQuickUseSelector.value = false }
@@ -279,7 +269,6 @@ const closeAmountSelector = () => {
   selectedQuickUseItem.value = null
 }
 
-// Вспомогательные методы
 const getWeaponImage = (weapon: Weapon) => {
   const getId = (name: string) => name.toLowerCase().replace(/\s+/g, '-')
   return new URL(`../assets/weapons/${getId(weapon.name)}.jpg`, import.meta.url).href
@@ -395,7 +384,6 @@ const getWeaponImage = (weapon: Weapon) => {
   font-style: italic;
 }
 
-/* Стили модальных окон */
 .modal-overlay {
   position: fixed;
   top: 0;

@@ -189,4 +189,17 @@ function calculateShotsPerSecond(weapon: Weapon): number {
   font-weight: bold;
   color: #1976d2;
 }
+
+@media (max-width: 768px) {
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .weapon-details {
+    max-width: 300px;
+  }
+}
 </style>

@@ -79,4 +79,56 @@ const isDev = process.env.NODE_ENV === 'development';
   height: 100vh;
   overflow-y: auto;
 }
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .sidebar ul {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sidebar li {
+    margin-bottom: 0;
+    flex-shrink: 0;
+  }
+
+  .sidebar a {
+    white-space: nowrap;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .content {
+    height: calc(100vh - 60px);
+    padding: 15px;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 8px;
+  }
+
+  .sidebar a {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
 </style>

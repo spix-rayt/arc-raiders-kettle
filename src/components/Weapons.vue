@@ -156,4 +156,8 @@ function getRomanNumeral(level: number): string {
   color: white;
   border-color: #1976d2; */
 }
+
+@media (max-width: 768px) {
+  
+}
 </style>
