@@ -46,42 +46,44 @@
     </div>
 
     <div class="calculated-stats">
-      <table class="stats-table">
-        <thead>
-          <tr>
-            <th></th>
-            <th v-for="col in 4" :key="col">
-              <img 
-                :src="getColumnImageUrl(col-1)" 
-                alt="" 
-                height="50"
-              />
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="stat-name">Hits to Kill</td>
-            <td 
-              v-for="col in 4" 
-              :key="col"
-              class="stat-value"
-            >
-              {{ calculateHitsToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense) }}
-            </td>
-          </tr>
-          <tr>
-            <td class="stat-name">Time to Kill</td>
-            <td 
-              v-for="col in 4" 
-              :key="col"
-              class="stat-value"
-            >
-              {{ calculateTimeToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense).toFixed(2) }}s
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-container">
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th v-for="col in 4" :key="col">
+                <img 
+                  :src="getColumnImageUrl(col-1)" 
+                  alt="" 
+                  class="shield-icon"
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="stat-name">Hits to Kill</td>
+              <td 
+                v-for="col in 4" 
+                :key="col"
+                class="stat-value"
+              >
+                {{ calculateHitsToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense) }}
+              </td>
+            </tr>
+            <tr>
+              <td class="stat-name">Time to Kill</td>
+              <td 
+                v-for="col in 4" 
+                :key="col"
+                class="stat-value"
+              >
+                {{ calculateTimeToKill(weapon, col-1, isFirstHitHeadshot && weapon.tryingHeadshotsMakeSense).toFixed(2) }}s
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
@@ -120,6 +122,7 @@ function calculateShotsPerSecond(weapon: Weapon): number {
 <style scoped>
 .weapon-details {
   max-width: 450px;
+  width: 100%;
 }
 
 .stats-grid {
@@ -162,26 +165,31 @@ function calculateShotsPerSecond(weapon: Weapon): number {
   margin-top: 30px;
 }
 
+.table-container {
+  overflow-x: auto;
+}
+
 .stats-table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 300px;
 }
 
 .stats-table th {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 8px 4px;
   text-align: center;
 }
 
 .stats-table td {
-  padding: 12px 8px;
+  padding: 12px 4px;
   text-align: center;
 }
 
 .stat-name {
   font-weight: 500;
   text-align: left;
-  padding-left: 0 !important;
+  padding-left: 8px;
+  white-space: nowrap;
 }
 
 .stat-value {
@@ -190,16 +198,109 @@ function calculateShotsPerSecond(weapon: Weapon): number {
   color: #1976d2;
 }
 
-@media (max-width: 768px) {
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
-    margin: 20px 0;
+.shield-icon {
+  height: 40px;
+  width: auto;
+}
+
+@media (max-width: 960px) {
+  .weapon-details {
+    max-width: 100%;
   }
 
-  .weapon-details {
-    max-width: 300px;
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 15px 0;
+  }
+
+  .stat-item {
+    padding: 6px 8px;
+  }
+
+  .headshot-checkbox {
+    margin: 15px 0;
+    padding: 6px 8px;
+  }
+
+  .calculated-stats {
+    margin-top: 20px;
+  }
+
+  .stats-table {
+    min-width: 280px;
+  }
+
+  .stats-table th {
+    padding: 6px 2px;
+  }
+
+  .stats-table td {
+    padding: 8px 2px;
+  }
+
+  .stat-name {
+    font-size: 14px;
+    padding-left: 4px;
+  }
+
+  .stat-value {
+    font-size: 16px;
+  }
+
+  .shield-icon {
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    gap: 6px;
+    margin: 10px 0;
+  }
+
+  .stat-item {
+    padding: 4px 6px;
+    font-size: 13px;
+  }
+
+  .headshot-checkbox {
+    margin: 12px 0;
+    padding: 4px 6px;
+    font-size: 13px;
+  }
+
+  .headshot-checkbox input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+  }
+
+  .calculated-stats {
+    margin-top: 15px;
+  }
+
+  .stats-table {
+    min-width: 260px;
+  }
+
+  .stats-table th {
+    padding: 4px 1px;
+  }
+
+  .stats-table td {
+    padding: 6px 1px;
+  }
+
+  .stat-name {
+    font-size: 13px;
+  }
+
+  .stat-value {
+    font-size: 14px;
+  }
+
+  .shield-icon {
+    height: 25px;
   }
 }
 </style>

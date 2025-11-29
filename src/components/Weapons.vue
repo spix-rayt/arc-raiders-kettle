@@ -18,21 +18,21 @@
       </button>
     </div>
 
-    
-    
     <div class="weapon-details-container">
       <div class="upgrade-controls">
-        <h2>{{ selectedWeapon?.name }}</h2>
-      <button
-        v-for="level in 4"
-        :key="level"
-        @click="upgradeLevel = level"
-        class="upgrade-button"
-        :class="{ active: upgradeLevel === level }"
-      >
-        {{ getRomanNumeral(level) }}
-      </button>
-    </div>
+        <h2 class="weapon-title">{{ selectedWeapon?.name }}</h2>
+        <div class="upgrade-buttons">
+          <button
+            v-for="level in 4"
+            :key="level"
+            @click="upgradeLevel = level"
+            class="upgrade-button"
+            :class="{ active: upgradeLevel === level }"
+          >
+            {{ getRomanNumeral(level) }}
+          </button>
+        </div>
+      </div>
       <WeaponDetails
         v-if="selectedWeapon"
         :weapon="selectedWeapon"
@@ -106,8 +106,8 @@ function getRomanNumeral(level: number): string {
 }
 
 .weapon-image {
-  width: 190px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -117,13 +117,14 @@ function getRomanNumeral(level: number): string {
   font-weight: 800;
   text-align: center;
   position: absolute;
-  padding-top: 62px;
-  left: 10px;
+  left: 6px;
+  bottom: 4px;
 }
 
 .weapon-details-container {
   flex: 1;
   padding: 20px;
+  overflow-y: auto;
 }
 
 .no-weapon-selected {
@@ -137,27 +138,120 @@ function getRomanNumeral(level: number): string {
 
 .upgrade-controls {
   display: flex;
+  flex-direction: row;
   gap: 10px;
   margin: 15px 0;
 }
 
+.weapon-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.upgrade-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
 .upgrade-button {
-  padding: 8px 16px;
+  /* padding: 8px 12px; */
   border: 2px solid #000000;
   background: rgba(0, 0, 0, 0);
   cursor: pointer;
   border-radius: 4px;
   font-weight: bold;
+  flex: 1;
+  width: 40px;
+  height: 40px;
 }
 
 .upgrade-button.active {
   border: 2px solid #ffffff;
-  /* background: #1976d2;
-  color: white;
-  border-color: #1976d2; */
 }
 
-@media (max-width: 768px) {
-  
+@media (max-width: 960px) {
+  .weapon-manager {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .weapon-list {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+    height: 120px;
+  }
+
+  .weapon-button {
+    width: 140px;
+    min-width: 140px;
+    margin-bottom: 0;
+    height: 70px;
+  }
+
+  .weapon-label {
+    font-size: 12px;
+    left: 6px;
+    bottom: 4px;
+  }
+
+  .weapon-details-container {
+    padding: 15px;
+    overflow-y: visible;
+  }
+
+  .upgrade-controls {
+    margin: 10px 0;
+  }
+
+  .upgrade-button {
+    padding: 6px 8px;
+    font-size: 12px;
+    max-width: 50px;
+  }
+
+  .no-weapon-selected {
+    height: 200px;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weapon-list {
+    height: 100px;
+  }
+
+  .weapon-button {
+    width: 120px;
+    min-width: 120px;
+    height: 62px;
+  }
+
+  .weapon-label {
+    font-size: 11px;
+    padding-top: 32px;
+  }
+
+  .weapon-details-container {
+    padding: 10px;
+  }
+
+  .upgrade-buttons {
+    gap: 5px;
+  }
+
+  .upgrade-button {
+    padding: 5px 6px;
+    font-size: 11px;
+    max-width: 45px;
+  }
 }
 </style>
