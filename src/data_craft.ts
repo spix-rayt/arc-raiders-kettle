@@ -10,26 +10,32 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.advanced_electrical_components, [
-            new ItemAmount(Items.wires, 3),
             new ItemAmount(Items.electrical_components, 2),
+            new ItemAmount(Items.wires, 3),
         ]
     ],
     [
         Items.advanced_mechanical_components, [
-            new ItemAmount(Items.steel_spring, 2),
             new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.steel_spring, 2),
         ]
     ],
     [
         Items.angled_grip_i, [
-            new ItemAmount(Items.plastic_parts, 6),
             new ItemAmount(Items.duct_tape, 1),
+            new ItemAmount(Items.plastic_parts, 6),
         ]
     ],
     [
         Items.angled_grip_ii, [
-            new ItemAmount(Items.mechanical_components, 2),
             new ItemAmount(Items.duct_tape, 3),
+            new ItemAmount(Items.mechanical_components, 2),
+        ]
+    ],
+    [
+        Items.angled_grip_iii, [
+            new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
@@ -42,6 +48,13 @@ export const crafts = new Map<Item, ItemAmount[]>([
         Items.anvil_i, [
             new ItemAmount(Items.mechanical_components, 5),
             new ItemAmount(Items.simple_gun_parts, 6),
+        ]
+    ],
+    [
+        Items.aphelion, [
+            new ItemAmount(Items.complex_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 3),
+            new ItemAmount(Items.matriarch_reactor, 1),
         ]
     ],
     [
@@ -71,17 +84,10 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
-        Items.bettina_blueprint, [
-            new ItemAmount(Items.advanced_mechanical_components, 3),
-            new ItemAmount(Items.heavy_gun_parts, 3),
-            new ItemAmount(Items.canister, 3),
-        ]
-    ],
-    [
         Items.bettina_i, [
             new ItemAmount(Items.advanced_mechanical_components, 3),
-            new ItemAmount(Items.heavy_gun_parts, 3),
             new ItemAmount(Items.canister, 3),
+            new ItemAmount(Items.heavy_gun_parts, 3),
         ]
     ],
     [
@@ -91,10 +97,27 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.blaze_grenade, [
+            new ItemAmount(Items.explosive_compound, 1),
+            new ItemAmount(Items.oil, 2),
+        ]
+    ],
+    [
+        Items.blaze_grenade_trap, [
+            new ItemAmount(Items.blaze_grenade, 1),
+            new ItemAmount(Items.wires, 1),
+        ]
+    ],
+    [
+        Items.blue_light_stick, [
+            new ItemAmount(Items.chemicals, 3),
+        ]
+    ],
+    [
         Items.bobcat_i, [
-            new ItemAmount(Items.magnetic_accelerator, 1),
-            new ItemAmount(Items.light_gun_parts, 3),
             new ItemAmount(Items.exodus_modules, 2),
+            new ItemAmount(Items.light_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 1),
         ]
     ],
     [
@@ -122,6 +145,12 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.combat_mk3_flanking, [
+            new ItemAmount(Items.advanced_electrical_components, 2),
+            new ItemAmount(Items.processor, 3),
+        ]
+    ],
+    [
         Items.compensator_i, [
             new ItemAmount(Items.metal_parts, 6),
             new ItemAmount(Items.wires, 1),
@@ -135,15 +164,15 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.compensator_iii, [
-            new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.mod_components, 2),
             new ItemAmount(Items.wires, 8),
         ]
     ],
     [
         Items.complex_gun_parts, [
+            new ItemAmount(Items.heavy_gun_parts, 2),
             new ItemAmount(Items.light_gun_parts, 2),
             new ItemAmount(Items.medium_gun_parts, 2),
-            new ItemAmount(Items.heavy_gun_parts, 2),
         ]
     ],
     [
@@ -153,14 +182,14 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.deadline, [
-            new ItemAmount(Items.explosive_compound, 3),
             new ItemAmount(Items.arc_circuitry, 2),
+            new ItemAmount(Items.explosive_compound, 3),
         ]
     ],
     [
         Items.defibrillator, [
-            new ItemAmount(Items.plastic_parts, 9),
             new ItemAmount(Items.moss, 1),
+            new ItemAmount(Items.plastic_parts, 9),
         ]
     ],
     [
@@ -188,8 +217,8 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.equalizer, [
-            new ItemAmount(Items.magnetic_accelerator, 3),
             new ItemAmount(Items.complex_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 3),
             new ItemAmount(Items.queen_reactor, 1),
         ]
     ],
@@ -200,9 +229,33 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.explosive_mine, [
+            new ItemAmount(Items.explosive_compound, 1),
+            new ItemAmount(Items.sensors, 1),
+        ]
+    ],
+    [
+        Items.extended_barrel, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.wires, 8),
+        ]
+    ],
+    [
         Items.extended_light_mag_i, [
             new ItemAmount(Items.plastic_parts, 6),
             new ItemAmount(Items.steel_spring, 1),
+        ]
+    ],
+    [
+        Items.extended_light_mag_ii, [
+            new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.steel_spring, 3),
+        ]
+    ],
+    [
+        Items.extended_light_mag_iii, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.steel_spring, 5),
         ]
     ],
     [
@@ -230,20 +283,56 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.extended_shotgun_mag_ii, [
+            new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.steel_spring, 3),
+        ]
+    ],
+    [
         Items.ferro_i, [
             new ItemAmount(Items.metal_parts, 5),
             new ItemAmount(Items.rubber_parts, 2),
         ]
     ],
     [
+        Items.firecracker, [
+            new ItemAmount(Items.chemicals, 2),
+            new ItemAmount(Items.plastic_parts, 4),
+        ]
+    ],
+    [
+        Items.fireworks_box, [
+            new ItemAmount(Items.explosive_compound, 1),
+            new ItemAmount(Items.pop_trigger, 3),
+        ]
+    ],
+    [
+        Items.flame_spray, [
+            new ItemAmount(Items.air_freshener, 1),
+            new ItemAmount(Items.fireball_burner, 1),
+        ]
+    ],
+    [
         Items.fruit_mix, [
-            new ItemAmount(Items.lemon, 1),
             new ItemAmount(Items.apricot, 1),
+            new ItemAmount(Items.lemon, 1),
             new ItemAmount(Items.prickly_pear, 1),
         ]
     ],
     [
         Items.gas_grenade, [
+            new ItemAmount(Items.chemicals, 4),
+            new ItemAmount(Items.rubber_parts, 2),
+        ]
+    ],
+    [
+        Items.gas_grenade_trap, [
+            new ItemAmount(Items.gas_grenade, 1),
+            new ItemAmount(Items.wires, 1),
+        ]
+    ],
+    [
+        Items.gas_mine, [
             new ItemAmount(Items.chemicals, 4),
             new ItemAmount(Items.rubber_parts, 2),
         ]
@@ -261,14 +350,14 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.heavy_ammo, [
-            new ItemAmount(Items.metal_parts, 3),
             new ItemAmount(Items.chemicals, 2),
+            new ItemAmount(Items.metal_parts, 3),
         ]
     ],
     [
         Items.heavy_fuze_grenade, [
-            new ItemAmount(Items.explosive_compound, 1),
             new ItemAmount(Items.canister, 2),
+            new ItemAmount(Items.explosive_compound, 1),
         ]
     ],
     [
@@ -290,15 +379,15 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.horizontal_grip, [
-            new ItemAmount(Items.mod_components, 2),
             new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
         Items.hullcracker_i, [
-            new ItemAmount(Items.magnetic_accelerator, 1),
-            new ItemAmount(Items.heavy_gun_parts, 3),
             new ItemAmount(Items.exodus_modules, 1),
+            new ItemAmount(Items.heavy_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 1),
         ]
     ],
     [
@@ -309,14 +398,14 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.jolt_mine, [
-            new ItemAmount(Items.electrical_components, 1),
             new ItemAmount(Items.battery, 1),
+            new ItemAmount(Items.electrical_components, 1),
         ]
     ],
     [
         Items.jupiter, [
-            new ItemAmount(Items.magnetic_accelerator, 3),
             new ItemAmount(Items.complex_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 3),
             new ItemAmount(Items.queen_reactor, 1),
         ]
     ],
@@ -334,14 +423,14 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.lightweight_stock, [
-            new ItemAmount(Items.mod_components, 2),
             new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
         Items.light_ammo, [
-            new ItemAmount(Items.metal_parts, 3),
             new ItemAmount(Items.chemicals, 2),
+            new ItemAmount(Items.metal_parts, 3),
         ]
     ],
     [
@@ -393,8 +482,14 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.lure_grenade, [
-            new ItemAmount(Items.speaker_component, 1),
             new ItemAmount(Items.electrical_components, 1),
+            new ItemAmount(Items.speaker_component, 1),
+        ]
+    ],
+    [
+        Items.lure_grenade_trap, [
+            new ItemAmount(Items.lure_grenade, 1),
+            new ItemAmount(Items.wires, 1),
         ]
     ],
     [
@@ -411,8 +506,8 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.medium_ammo, [
-            new ItemAmount(Items.metal_parts, 3),
             new ItemAmount(Items.chemicals, 2),
+            new ItemAmount(Items.metal_parts, 3),
         ]
     ],
     [
@@ -428,8 +523,8 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.mod_components, [
-            new ItemAmount(Items.steel_spring, 2),
             new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.steel_spring, 2),
         ]
     ],
     [
@@ -445,10 +540,28 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.muzzle_brake_iii, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.wires, 8),
+        ]
+    ],
+    [
+        Items.noisemaker, [
+            new ItemAmount(Items.plastic_parts, 2),
+            new ItemAmount(Items.speaker_component, 1),
+        ]
+    ],
+    [
         Items.osprey_i, [
             new ItemAmount(Items.advanced_mechanical_components, 2),
             new ItemAmount(Items.medium_gun_parts, 3),
             new ItemAmount(Items.wires, 7),
+        ]
+    ],
+    [
+        Items.padded_stock, [
+            new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
@@ -464,6 +577,12 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.pulse_mine, [
+            new ItemAmount(Items.crude_explosives, 1),
+            new ItemAmount(Items.wires, 1),
+        ]
+    ],
+    [
         Items.raider_hatch_key, [
             new ItemAmount(Items.advanced_electrical_components, 1),
             new ItemAmount(Items.sensors, 3),
@@ -473,6 +592,11 @@ export const crafts = new Map<Item, ItemAmount[]>([
         Items.rattler_i, [
             new ItemAmount(Items.metal_parts, 16),
             new ItemAmount(Items.rubber_parts, 12),
+        ]
+    ],
+    [
+        Items.red_light_stick, [
+            new ItemAmount(Items.chemicals, 3),
         ]
     ],
     [
@@ -489,15 +613,21 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.seeker_grenade, [
+            new ItemAmount(Items.arc_alloy, 2),
+            new ItemAmount(Items.crude_explosives, 1),
+        ]
+    ],
+    [
         Items.shield_recharger, [
-            new ItemAmount(Items.rubber_parts, 5),
             new ItemAmount(Items.arc_powercell, 1),
+            new ItemAmount(Items.rubber_parts, 5),
         ]
     ],
     [
         Items.shotgun_ammo, [
-            new ItemAmount(Items.metal_parts, 3),
             new ItemAmount(Items.chemicals, 2),
+            new ItemAmount(Items.metal_parts, 3),
         ]
     ],
     [
@@ -507,9 +637,57 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.shotgun_choke_ii, [
+            new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.wires, 4),
+        ]
+    ],
+    [
+        Items.shotgun_choke_iii, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.wires, 8),
+        ]
+    ],
+    [
+        Items.shotgun_silencer, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.wires, 8),
+        ]
+    ],
+    [
+        Items.showstopper, [
+            new ItemAmount(Items.advanced_electrical_components, 1),
+            new ItemAmount(Items.voltage_converter, 1),
+        ]
+    ],
+    [
         Items.shrapnel_grenade, [
             new ItemAmount(Items.crude_explosives, 1),
             new ItemAmount(Items.steel_spring, 2),
+        ]
+    ],
+    [
+        Items.silencer_i, [
+            new ItemAmount(Items.mechanical_components, 2),
+            new ItemAmount(Items.wires, 4),
+        ]
+    ],
+    [
+        Items.silencer_ii, [
+            new ItemAmount(Items.mod_components, 2),
+            new ItemAmount(Items.wires, 8),
+        ]
+    ],
+    [
+        Items.smoke_grenade, [
+            new ItemAmount(Items.canister, 1),
+            new ItemAmount(Items.chemicals, 14),
+        ]
+    ],
+    [
+        Items.smoke_grenade_trap, [
+            new ItemAmount(Items.smoke_grenade, 1),
+            new ItemAmount(Items.wires, 1),
         ]
     ],
     [
@@ -520,14 +698,27 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.snap_hook, [
-            new ItemAmount(Items.power_rod, 1),
             new ItemAmount(Items.exodus_modules, 1),
+            new ItemAmount(Items.power_rod, 2),
+            new ItemAmount(Items.rope, 3),
         ]
     ],
     [
         Items.stable_stock_i, [
-            new ItemAmount(Items.rubber_parts, 6),
             new ItemAmount(Items.duct_tape, 1),
+            new ItemAmount(Items.rubber_parts, 6),
+        ]
+    ],
+    [
+        Items.stable_stock_ii, [
+            new ItemAmount(Items.duct_tape, 3),
+            new ItemAmount(Items.mechanical_components, 2),
+        ]
+    ],
+    [
+        Items.stable_stock_iii, [
+            new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
@@ -544,8 +735,8 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.surge_shield_recharger, [
-            new ItemAmount(Items.electrical_components, 1),
             new ItemAmount(Items.advanced_arc_powercell, 1),
+            new ItemAmount(Items.electrical_components, 1),
         ]
     ],
     [
@@ -567,6 +758,12 @@ export const crafts = new Map<Item, ItemAmount[]>([
         ]
     ],
     [
+        Items.tactical_mk3_healing, [
+            new ItemAmount(Items.advanced_electrical_components, 2),
+            new ItemAmount(Items.processor, 3),
+        ]
+    ],
+    [
         Items.tagging_grenade, [
             new ItemAmount(Items.electrical_components, 1),
             new ItemAmount(Items.sensors, 1),
@@ -574,8 +771,9 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.tempest_i, [
-            new ItemAmount(Items.advanced_mechanical_components, 2),
-            new ItemAmount(Items.medium_gun_parts, 1),
+            new ItemAmount(Items.exodus_modules, 2),
+            new ItemAmount(Items.magnetic_accelerator, 1),
+            new ItemAmount(Items.medium_gun_parts, 3),
         ]
     ],
     [
@@ -583,6 +781,12 @@ export const crafts = new Map<Item, ItemAmount[]>([
             new ItemAmount(Items.advanced_mechanical_components, 2),
             new ItemAmount(Items.medium_gun_parts, 3),
             new ItemAmount(Items.steel_spring, 6),
+        ]
+    ],
+    [
+        Items.trailblazer, [
+            new ItemAmount(Items.explosive_compound, 1),
+            new ItemAmount(Items.synthesized_fuel, 1),
         ]
     ],
     [
@@ -594,25 +798,31 @@ export const crafts = new Map<Item, ItemAmount[]>([
     [
         Items.venator_i, [
             new ItemAmount(Items.advanced_mechanical_components, 2),
-            new ItemAmount(Items.medium_gun_parts, 3),
             new ItemAmount(Items.magnet, 5),
+            new ItemAmount(Items.medium_gun_parts, 3),
         ]
     ],
     [
         Items.vertical_grip_i, [
-            new ItemAmount(Items.plastic_parts, 6),
             new ItemAmount(Items.duct_tape, 1),
+            new ItemAmount(Items.plastic_parts, 6),
+        ]
+    ],
+    [
+        Items.vertical_grip_ii, [
+            new ItemAmount(Items.duct_tape, 3),
+            new ItemAmount(Items.mechanical_components, 2),
         ]
     ],
     [
         Items.vertical_grip_iii, [
-            new ItemAmount(Items.mod_components, 2),
             new ItemAmount(Items.duct_tape, 5),
+            new ItemAmount(Items.mod_components, 2),
         ]
     ],
     [
         Items.vita_shot, [
-            new ItemAmount(Items.antiseptic, 1),
+            new ItemAmount(Items.antiseptic, 2),
             new ItemAmount(Items.syringe, 1),
         ]
     ],
@@ -624,21 +834,26 @@ export const crafts = new Map<Item, ItemAmount[]>([
     ],
     [
         Items.vulcano_i, [
-            new ItemAmount(Items.magnetic_accelerator, 1),
-            new ItemAmount(Items.heavy_gun_parts, 3),
             new ItemAmount(Items.exodus_modules, 1),
+            new ItemAmount(Items.heavy_gun_parts, 3),
+            new ItemAmount(Items.magnetic_accelerator, 1),
         ]
     ],
     [
         Items.wolfpack, [
-            new ItemAmount(Items.explosive_compound, 3),
             new ItemAmount(Items.arc_motion_core, 2),
+            new ItemAmount(Items.explosive_compound, 3),
+        ]
+    ],
+    [
+        Items.yellow_light_stick, [
+            new ItemAmount(Items.chemicals, 3),
         ]
     ],
     [
         Items.zipline, [
-            new ItemAmount(Items.rope, 1),
             new ItemAmount(Items.mechanical_components, 1),
+            new ItemAmount(Items.rope, 1),
         ]
     ],
 ]);

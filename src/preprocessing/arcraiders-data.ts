@@ -40,7 +40,7 @@ function buildItemsFile(filenames: string[]) {
         const category = parseCategory(data["type"]);
         const stackSize = extractStackSize(data);
         if (stackSize == null) {
-            console.warn(`ITEM ${id} (${category}) - Stack size is ${stackSize}`);
+            console.warn(`Stack size is ${stackSize} - item ${id} (${category})`);
         }
         const rawImagePath = data["imageFilename"]?.replace("https://cdn.arctracker.io/", "arcraiders-data/images/");
         if (rawImagePath == null) {

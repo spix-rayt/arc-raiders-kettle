@@ -98,7 +98,7 @@ async function processItemImages() {
             }
         } catch (error: any) {
             if (error.message.includes("webp")) {
-                console.warn(`skip ${id}`);
+                console.warn(`skip item image - ${id}`);
             } else {
                 throw error;
             }

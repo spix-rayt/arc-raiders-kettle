@@ -17,14 +17,14 @@ const GREEN_SHIELD: Shield = {
 const BLUE_SHIELD: Shield = {
     name: "Blue shield",
     amount: 70.0,
-    damageReduction: 0.42,
+    damageReduction: 0.425,
     icon: new URL(`./assets/armors/armor2.jpg`, import.meta.url).href,
 }
 
 const PURPLE_SHIELD: Shield = {
     name: "Purple shield",
     amount: 80.0,
-    damageReduction: 0.52,
+    damageReduction: 0.525,
     icon: new URL(`./assets/armors/armor3.jpg`, import.meta.url).href,
 }
 
